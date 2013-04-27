@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="UTF-8">
+<meta name="author" content="Li Sun" />
+<link rel="stylesheet" type="text/css" href="/css/main.css" media="screen" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Josefin+Sans+Std+Light" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300" />
+<link rel="alternate" type="application/rss+xml" title="donie's notes" href="http://feeds.feedburner.com/donie_notes" />
+<link rel="icon" type="image/x-ico" href="/assets/favicon3.ico?42" />
+<link rel="shortcut icon" href="/assets/favicon3.ico?42" />
+<link rel="apple-touch-icon-precomposed" href="/assets/main-icon.png" >
+<title>donie's notes | arch linux on raspberry pi</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"> <a href="/">donie's notes</a> </div>
+<div style="clear:both; border-bottom: 1px solid #ccc; width: 98%"></div>
+<div id="content">
+<article>
+<div class="entry-title">
+<h4> <a href="/2013/04/27/alarm_rpi.html"> arch linux on raspberry pi </a> </h4>
+<p>Quick memo for a setup process for arch linux arm on <abbr title="raspberrypi">rpi</abbr> with a wireless adapter:</p>
+
+<ol>
+<li><p>Plugin the ethenet cable into <abbr title="raspberrypi">rpi</abbr>. Verify the wireless adapter is recognized by the kernel using <code>lsusb</code>:</p>
+
+<pre><code> [root@alarmpi ~]# lsusb
+ Bus 001 Device 002: ID 0424:9512 Standard Microsystems Corp. LAN9500 Ethernet 10/100 Adapter
+ Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+ Bus 001 Device 003: ID 0424:ec00 Standard Microsystems Corp.
+ Bus 001 Device 004: ID 050d:945a Belkin Components F7D1101 v1 Basic Wireless Adapter [Realtek RTL8188SU]
+</code></pre></li>
+<li><p>Update the system: <code>pacman -Syu</code></p></li>
+<li>Install the base system and vim, <a href="https://wiki.archlinux.org/index.php/Netctl">netctl</a> is the replcaement for the netcfg package: <code>packman -S base-devel vim netctl</code></li>
+<li>Following is just a replica of contents in arch wiki: <code>cp /etc/netctl/examples/wireless-wpa /etc/netctl</code></li>
+<li><p>Editing the netctl/wireless-wpa file: <code>vim /etc/netctl/wireless-wpa</code></p>
+
+<pre><code> ESSID='yourssid'
+ Key='yourpassword'
+</code></pre></li>
+<li><p>Testing the connection: <code>netctl start wireless-wpa</code></p></li>
+<li><p>See the logs: <code>netctl status wireless-wpa</code></p>
+
+<pre><code> [root@alarmpi netctl]# netctl status wireless-wpa
+ netctl@wireless\x2dwpa.service - Networking for netctl profile wireless-wpa
+ Loaded: loaded (/usr/lib/systemd/system/netctl@.service; static)
+ Active: active (exited) since Sat 2013-04-27 07:56:54 BST; 7s ago
+ Docs: man:netctl.profile(5)
+ Process: 716 ExecStart=/usr/lib/network/network start %I (code=exited, status=0/SUCCESS)
+ CGroup: name=systemd:/system/netctl@.service/wireless\x2dwpa
+    ├─ 735 wpa_supplicant -B -P /run/wpa_supplicant_wlan0.pid -i wlan0...
+    └─1066 dhcpcd -qL -t 10 wlan0`
+</code></pre></li>
+<li><p>Add entry into systemd: <code>netctl enable wireless-wpa</code></p></li>
+<li>Unplug the cable and testing the wireless connection!!!</li>
+</ol>
+
+
+<p class="meta">27 Apr 2013</p>
+</article>
+
+
+<div id="footer"><div id="credits">2013 © all rights reserved. layout inspired by <a href="http://jimbarraud.com/manifest/">manifest</a>. <br>
+best viewed over the <a href="http://goo.gl/bIWJw">wall</a>. &nbsp;&nbsp;&nbsp;<a href="/log.html">sitelog</a>|&nbsp;<a href="/archive.html">archive</a>|&nbsp;<a href="/about.html">about</a></div></div>
+</div>
+</div>
+</body>
+<script type="text/javascript" src="http://use.typekit.net/rwg4ynv.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</html>
