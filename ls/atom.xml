@@ -4,7 +4,7 @@
  <title>donie's notes</title>
  <link href="http://weblog.donie.me/atom.xml" rel="self"/>
  <link href="http://weblog.donie.me/"/>
- <updated>2013-04-27T23:15:20+08:00</updated>
+ <updated>2013-04-27T23:05:37+08:00</updated>
  <id>http://weblog.donie.me/</id>
  <author>
    <name>Li Sun</name>
@@ -13,7 +13,7 @@
 
  
  <entry>
-   <title>Arch linux on raspberry pi</title>
+   <title>arch linux on raspberry pi</title>
    <link href="http://weblog.donie.me/2013/04/27/alarm_rpi.html"/>
    <updated>2013-04-27T00:00:00+08:00</updated>
    <id>http://weblog.donie.me/2013/04/27/alarm_rpi</id>
