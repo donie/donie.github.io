@@ -4,13 +4,22 @@
  <title>donie's notes</title>
  <link href="http://weblog.donie.me/atom.xml" rel="self"/>
  <link href="http://weblog.donie.me/"/>
- <updated>2013-07-11T01:18:31+08:00</updated>
+ <updated>2013-07-14T00:36:28+08:00</updated>
  <id>http://weblog.donie.me/</id>
  <author>
    <name>Li Sun</name>
    <email>c@donie.me</email>
  </author>
 
+ 
+ <entry>
+   <title>暂停一下</title>
+   <link href="http://weblog.donie.me/2013/06/30/take_a_break.html"/>
+   <updated>2013-06-30T00:00:00+08:00</updated>
+   <id>http://weblog.donie.me/2013/06/30/take_a_break</id>
+   <content type="html">&lt;p&gt;今天开始觉得走错路了，堂堂正正地做好自己，记得别太猥琐就好&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>无题（十四）</title>
