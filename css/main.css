@@ -1,17 +1,16 @@
 /* experimental stuffs */
 /* #wrapper { -webkit-animation-name: wrapper-fadein; -webkit-animation-duration: .8s; } */
-/* @-webkit-keyframes wrapper-fadein{ 0% {opacity:.0; -webkit-transform:scale(0.9) translate3d(0,-40px,0)} 100% {opacity:1.0;-webkit-transform:scale(1) translate3d(0,0,0)}} */
-#wrapper {
-    perspective: 800px;
-}
+@-webkit-keyframes wrapper-fadein{ 0% {opacity:.0; -webkit-transform:scale(0.9) translate3d(0,-40px,0)} 100% {opacity:1.0;-webkit-transform:scale(1) translate3d(0,0,0)}} 
+/* #wrapper { */
+/*     perspective: 800px; */
+/* } */
 
-#content {
-    transform: rotateY(30deg); 
-    -moz-transform: rotateY(30deg); 
-    -webkit-transform: rotateY(30deg); 
-    -o-transform: rotateY(30deg); 
-}
-
+/* #content { */
+/*     transform: rotateY(30deg); */ 
+/*     -moz-transform: rotateY(30deg); */ 
+/*     -webkit-transform: rotateY(30deg); */ 
+/*     -o-transform: rotateY(30deg); */ 
+/* } */
 #f1 { -moz-animation-name: f1; -moz-animation-duration: .75s; position: relative; }
 @-moz-keyframes f1 { 0% {top: 0px; opacity: 0; } 67% { top: 23px; opacity: 0; } 100% { top: 0px; opacity: 1; } }
 #f2 { -moz-animation-name: f2; -moz-animation-duration: 1.25s; position: relative; }
