@@ -1,5 +1,6 @@
 /* interesting stuffs */
 #wrapper { -webkit-font-smoothing:antialiased; }
+<<<<<<< HEAD
 #header { -webkit-animation-name: wrapper-fadein; -webkit-animation-duration: .3s; }
 #fulla { -webkit-animation-name: wrapper-fadein; -webkit-animation-duration: .6s; }
 article { -webkit-animation-name: wrapper-fadein; -webkit-animation-duration: .6s; }
@@ -10,6 +11,18 @@ article { -webkit-animation-name: wrapper-fadein; -webkit-animation-duration: .6
 .alignright { -webkit-animation-name: wrapper-fadein; -webkit-animation-duration: 1.5s; }
 #footer { -webkit-animation-name: wrapper-fadein; -webkit-animation-duration: 1.5s; }
 @-webkit-keyframes wrapper-fadein{ 0% { opacity: .0; -webkit-transform-style: preserve-3d; -webkit-backface-visibility: hidden; -webkit-transform-origin: 0% 0%; -webkit-transform: perspective(800px) rotateY(-60deg) scaleY(1) scale3d(0.6, 1, 1); } 100% { opacity: 1.0; -webkit-transform-style: preserve-3d; -webkit-backface-visibility: hidden; -webkit-transform-origin: 0% 0%; -webkit-transform: perspective(800px) rotateY(0deg) scaleY(1) scale3d(1, 1, 1); } }
+=======
+#header { -webkit-animation-name: wrapper-fadein; -webkit-animation-duration: .3s; -webkit-transform: translateZ(0); transform: translateZ(0);}
+#fulla { -webkit-animation-name: wrapper-fadein; -webkit-animation-duration: .6s; -webkit-transform: translateZ(0); transform: translateZ(0);}
+article { -webkit-animation-name: wrapper-fadein; -webkit-animation-duration: .6s; -webkit-transform: translateZ(0); transform: translateZ(0);}
+#f1 { -webkit-animation-name: wrapper-fadein; -webkit-animation-duration: .6s; -webkit-transform: translateZ(0); transform: translateZ(0);}
+#f2 { -webkit-animation-name: wrapper-fadein; -webkit-animation-duration: .9s; -webkit-transform: translateZ(0); transform: translateZ(0);}
+#f3 { -webkit-animation-name: wrapper-fadein; -webkit-animation-duration: 1.2s; -webkit-transform: translateZ(0); transform: translateZ(0);}
+.alignleft { -webkit-animation-name: wrapper-fadein; -webkit-animation-duration: 1.5s; -webkit-transform: translateZ(0); transform: translateZ(0);}
+.alignright { -webkit-animation-name: wrapper-fadein; -webkit-animation-duration: 1.5s; -webkit-transform: translateZ(0); transform: translateZ(0);}
+#footer { -webkit-animation-name: wrapper-fadein; -webkit-animation-duration: 1.5s; -webkit-transform: translateZ(0); transform: translateZ(0);}
+@-webkit-keyframes wrapper-fadein{ 0% { opacity: .0; -webkit-transform-style: preserve-3d; -webkit-backface-visibility: hidden; -webkit-transform-origin: 0% 0%; -webkit-transform: perspective(800px) rotateY(-90deg) scaleY(1) scale3d(0.6, 1, 1); } 100% { opacity: 1.0; -webkit-transform-style: preserve-3d; -webkit-backface-visibility: hidden; -webkit-transform-origin: 0% 0%; -webkit-transform: perspective(800px) rotateY(0deg) scaleY(1) scale3d(1, 1, 1); } }
+>>>>>>> refs/heads/experimental
 #f1 { -moz-animation-name: f1; -moz-animation-duration: .75s; position: relative; }
 @-moz-keyframes f1 { 0% {top: 0px; opacity: 0; } 67% { top: 23px; opacity: 0; } 100% { top: 0px; opacity: 1; } }
 #f2 { -moz-animation-name: f2; -moz-animation-duration: 1.25s; position: relative; }
