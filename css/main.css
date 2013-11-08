@@ -1,11 +1,11 @@
 /* interesting stuffs */
-@-webkit-keyframes wrapper-fadein{ 
+@-webkit-keyframes fadein{ 
     0% { 
         opacity: .0;
         -webkit-transform-style: preserve-3d; 
         /* -webkit-backface-visibility: hidden; */ 
         -webkit-transform-origin: 0% 0%; 
-        -webkit-transform: perspective(800px) rotateY(-90deg) scale3d(0.3, 1, 1); 
+        -webkit-transform: perspective(800px) rotateY(-90deg) scale3d(0.9, 1, 1); 
     } 
     100% { 
         opacity: 1.0; 
@@ -15,7 +15,30 @@
         -webkit-transform: perspective(800px) rotateY(0deg) scale3d(1, 1, 1); 
     } 
 }
-@-webkit-keyframes wrapper-fadein_mobile{ 
+@-webkit-keyframes fadein-sp{ 
+    0% { 
+        opacity: .0;
+        -webkit-transform-style: preserve-3d; 
+        /* -webkit-backface-visibility: hidden; */ 
+        -webkit-transform-origin: 0% 0%; 
+        -webkit-transform: perspective(800px) rotateY(-90deg) scale3d(0.9, 1, 1); 
+    } 
+    48% { 
+        opacity: .0;
+        -webkit-transform-style: preserve-3d; 
+        /* -webkit-backface-visibility: hidden; */ 
+        -webkit-transform-origin: 0% 0%; 
+        -webkit-transform: perspective(800px) rotateY(-90deg) scale3d(0.9, 1, 1); 
+    } 
+    100% { 
+        opacity: 1.0; 
+        -webkit-transform-style: preserve-3d; 
+        /* -webkit-backface-visibility: hidden; */ 
+        -webkit-transform-origin: 0% 0%; 
+        -webkit-transform: perspective(800px) rotateY(0deg) scale3d(1, 1, 1); 
+    } 
+}
+@-webkit-keyframes fadein-mobile{ 
     0% { 
         opacity: .0;
         -webkit-transform-style: preserve-3d; 
@@ -30,6 +53,7 @@
     } 
 }
 #wrapper { -webkit-font-smoothing:antialiased; }
+<<<<<<< HEAD
 <<<<<<< HEAD
 #header { -webkit-animation-name: wrapper-fadein; -webkit-animation-duration: .3s; }
 #fulla { -webkit-animation-name: wrapper-fadein; -webkit-animation-duration: .6s; }
@@ -53,6 +77,10 @@ article { -webkit-animation-name: wrapper-fadein; -webkit-animation-duration: .6
 @-webkit-keyframes wrapper-fadein{ 0% { opacity: .0; -webkit-transform-style: preserve-3d; -webkit-backface-visibility: hidden; -webkit-transform-origin: 0% 0%; -webkit-transform: perspective(800px) rotateY(-90deg) scaleY(1) scale3d(0.6, 1, 1); } 100% { opacity: 1.0; -webkit-transform-style: preserve-3d; -webkit-backface-visibility: hidden; -webkit-transform-origin: 0% 0%; -webkit-transform: perspective(800px) rotateY(0deg) scaleY(1) scale3d(1, 1, 1); } }
 =======
 #header, #fulla, #f1, #f2, #f3, #footer, .alignleft, .alightright, article { -webkit-animation-name: wrapper-fadein_mobile; -webkit-transform: translateZ(0); transform: translateZ(0); }
+=======
+#header, #fulla, #f1, #f2, #f3, #footer, .alignleft, article { -webkit-animation-name: fadein; -webkit-transform: translateZ(0); transform: translateZ(0); }
+.alignright { -webkit-animation-name: fadein-sp; -webkit-transform: translateZ(0); transform: translateZ(0); }
+>>>>>>> refs/heads/experimental
 #header { -webkit-animation-duration: .3s; }
 #fulla { -webkit-animation-duration: .6s; }
 #f1 { -webkit-animation-duration: .6s; }
@@ -118,7 +146,7 @@ article table td, article table th { padding: 0.2em 1em; border: 1px solid #ccc;
 
 @media only handheld and (max-width: 480px), screen and (max-device-width: 480px), screen and (max-width: 600px) { #wrapper { width: 93%; -webkit-text-size-adjust: 300%; } .alignleft, .alignright { padding-top: .6em; }}
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width: 600px) { 
-    #header, #fulla, #f1, #f2, #f3, #footer, .alignleft, .alightright, article { -webkit-animation-name: wrapper-fadein_mobile; }
+    #header, #fulla, #f1, #f2, #f3, #footer, .alignleft, .alightright, article { -webkit-animation-name: fadein-mobile; }
     #wrapper { 
             -webkit-text-size-adjust: 150%; 
             margin: 0 auto;
@@ -137,7 +165,7 @@ article table td, article table th { padding: 0.2em 1em; border: 1px solid #ccc;
     #footer a { opacity: .6; font-style: italic; } 
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-device-width: 600px) { 
-    #header, #fulla, #f1, #f2, #f3, #footer, .alignleft, .alightright, article { -webkit-animation-name: wrapper-fadein_mobile; }
+    #header, #fulla, #f1, #f2, #f3, #footer, .alignleft, .alightright, article { -webkit-animation-name: fadein-mobile; }
     #wrapper { 
         -webkit-text-size-adjust: 120% !important; 
         margin: 0 auto; 
