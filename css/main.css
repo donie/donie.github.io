@@ -26,11 +26,11 @@ article { -webkit-animation-duration: .6s; }
 @-moz-keyframes footer { 0% {opacity: 0.2; } 67% { opacity: 0.5; } 100% { opacity: 0.8; } }
 
 /* main things */
-p { margin: 0; padding: 0; }
 ::selection { background: rgba(255,255,150,.9); color: #333; }
 ::-moz-selection { background: rgba(255,255,150,.9); color: #333; /*text-shadow: #993044 0 1px 0;*/ }
 a { color: rgba(0,144,226,.9); text-decoration: none; }
 a:hover, a:active { text-decoration: underline; }
+p { margin: 0; padding: 0; }
 
 /* main */
 html { background: whitesmoke; }
