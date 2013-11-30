@@ -35,7 +35,7 @@ p { margin: 0; padding: 0; }
 /* main */
 html { background: whitesmoke; }
 #wrapper { margin: 0 auto; width: 600px; text-align: left; padding-top: 9px; color: #555; text-shadow: rgba(255,254,255,0.6) 0 1px 0; -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; font: 500 14px/1.8 "adelle", Georgia, sans-serif; text-align: left; word-wrap: break-word; }
-#header { font-family: 'Josefin Sans Std Light', 'Chaparral Pro', 'Palatino Linotype', 'Hoefler Text', georgia; font-size: 2.0em; line-height: 2.4em; float: left; }
+#header { font-family: 'chaparral-pro-display', 'Chaparral Pro', 'Palatino Linotype', 'Hoefler Text', georgia; font-size: 2.0em; line-height: 2.4em; float: left; }
 #header a:hover, #header a:active { text-decoration: none; }
 h1, h2, h3, h4, h5, h6 { margin-top: 0.8em; margin-bottom: 0.5em; line-height: 1.5; }
 h1 { font-size: 1.8em; }
