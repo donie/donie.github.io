@@ -19,6 +19,17 @@
 <article id="f1">
 <div class="entry-title">
 <h4>
+<a href=" /2010/07/28/m_1.html">马克</a>
+<abbr title="July 28 2010">July 28</abbr>
+</h4>
+</div>
+<div class="entry-content"><p>虽然同是央视的，不过比起电影频道那什么电影报道里面滥用的谍影重重音乐，新闻频道要厚道多了，</p>
+<p><a href="http://v.ku6.com/show/YHnXhTuIddwIzfyp.html" rel="external">http://v.ku6.com/show/YHnXhTuIddwIzfyp.html</a></p></div>
+</article>
+
+<article id="f2">
+<div class="entry-title">
+<h4>
 <a href=" /2010/07/25/netrw_on_Windows.html">vim/netrw</a>
 <abbr title="July 25 2010">July 25</abbr>
 </h4>
@@ -37,7 +48,7 @@ let g:netrw_list_cmd = “plink username@hostname -pw yourpasswd ls -Fa</pre>
 <p>source: <a href="http://vim.wikia.com/wiki/Editing_remote_files_via_scp_in_vim">1.</a><a href="http://groups.google.com/group/vim_use/browse_thread/thread/035124296a7dfa95/cbbb95d1fa1d37b0?lnk=raot&amp;pli=1">2</a></p></div>
 </article>
 
-<article id="f2">
+<article id="f3">
 <div class="entry-title">
 <h4>
 <a href=" /2010/07/18/mediaboxAdvanced.html">重新来过</a>
@@ -50,27 +61,6 @@ let g:netrw_list_cmd = “plink username@hostname -pw yourpasswd ls -Fa</pre>
 <a rel="external" href="http://repo.donie.me/Day_Night.mp4" title="Pixar: Day&amp;Night">bonus</a></p></div>
 </article>
 
-<article id="f3">
-<div class="entry-title">
-<h4>
-<a href=" /2010/07/12/no_title_2.html">无题（二）</a>
-<abbr title="July 12 2010">July 12</abbr>
-</h4>
-</div>
-<div class="entry-content"><p>搞了个 <a href="http://gandi.net" rel="external">gandi</a> 的证书：先用openssl生成CSR和KEY文件，然后将CSR发给gandi等待生成CRT（用文本编辑器打开看看是否有内容，一般短时间内生成的CRT是无效的，密钥部分全是空的，我是睡了一觉起来，证书才准备好了）。<br />
-然后</p>
-<pre>$ cat host.key host.crt &gt; host.pem</pre>
-<p>lighty conf中加上如下内容，算vhost吧？</p>
-<pre>$SERVER["socket"] == "IP:443" {
-    ssl.engine = "enable"
-    ssl.pemfile = "/etc/lighttpd/ssl/fq.dn/host.pem"
-    ssl.ca-file = "/etc/lighttpd/ssl/fq.dn/host.crt"
-    server.name = "fq.dn"
-    server.document-root = "/var/www/fq.dn"
-}</pre>
-<p>done，不过firefox竟然认不到gandi的证书，Safari/IE/Opera/Chrome正常，是不是该去Bugzilla提去～</p></div>
-</article>
-
 <!-- pagenav -->
 <div class='alignleft'>
 <a href="/page17">←Older entries</a></div>
@@ -79,7 +69,7 @@ let g:netrw_list_cmd = “plink username@hostname -pw yourpasswd ls -Fa</pre>
 <div style="clear:both"></div>
 <!-- /pagenav -->
 
-<div id="footer"><div id="credits">2013 © all rights reserved. layout inspired by <a href="http://jimbarraud.com/manifest/">manifest</a>. <br>
+<div id="footer"><div id="credits">2014 © all rights reserved. layout inspired by <a href="http://jimbarraud.com/manifest/">manifest</a>. <br>
 best viewed over the <a href="http://goo.gl/bIWJw">wall</a>. &nbsp;&nbsp;&nbsp;<a href="/log.html">sitelog</a>|&nbsp;<a href="/archive.html">archive</a>|&nbsp;<a href="/about.html">about</a></div></div>
 </div>
 </div>
