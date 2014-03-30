@@ -19,56 +19,46 @@
 <article id="f1">
 <div class="entry-title">
 <h4>
+<a href=" /2010/07/28/m_1.html">马克</a>
+<abbr title="July 28 2010">July 28</abbr>
+</h4>
+</div>
+<div class="entry-content"><p>虽然同是央视的，不过比起电影频道那什么电影报道里面滥用的谍影重重音乐，新闻频道要厚道多了，</p>
+<p><a href="http://v.ku6.com/show/YHnXhTuIddwIzfyp.html" rel="external">http://v.ku6.com/show/YHnXhTuIddwIzfyp.html</a></p></div>
+</article>
+
+<article id="f2">
+<div class="entry-title">
+<h4>
 <a href=" /2010/07/25/netrw_on_Windows.html">vim/netrw</a>
 <abbr title="July 25 2010">July 25</abbr>
 </h4>
 </div>
-<div class="entry-content"><p>For Windows, only。 真羡慕Mac和*nix上的人，不用烦劳这些稀奇古怪的问题。</p>
-<p>最好升级一下netrw包，at here: <br />
+<div class="entry-content"><p>For Windows，only。 真羡慕 Mac 和 *nix 上的人，不用烦劳这些稀奇古怪的问题。</p>
+<p>最好升级一下 netrw 包，at here： <br />
 <a href="http://mysite.verizon.net/astronaut/vim/index.html#NETRW" rel="external">http://mysite.verizon.net/astronaut/vim/index.html#<span class="caps">NETRW</span></a></p>
-<p>在vimrc中加上这些：</p>
+<p>在 vimrc 中加上这些：</p>
 <pre>let g:netrw_cygwin = 0
 let g:netrw_scp_cmd = “C:\\path\\to\\putty's\\scp\\pscp.exe -pw yourpasswd”
 let g:netrw_sftp_cmd = “C:\\path\\to\\putty's\\sftp\\pftp.exe -pw yourpasswd”
 let g:netrw_list_cmd = “plink username@hostname -pw yourpasswd ls -Fa</pre>
 <pre>:e scp://user@hostname//path/</pre>
-<p>path之前必须多加上一个/</p>
-<p>Voila. (厄，被Howard带的。)</p>
+<p>path 之前必须多加上一个 /</p>
+<p>Voila。（厄，被 Howard 带的。）</p>
 <p>source: <a href="http://vim.wikia.com/wiki/Editing_remote_files_via_scp_in_vim">1.</a><a href="http://groups.google.com/group/vim_use/browse_thread/thread/035124296a7dfa95/cbbb95d1fa1d37b0?lnk=raot&amp;pli=1">2</a></p></div>
 </article>
 
-<article id="f2">
+<article id="f3">
 <div class="entry-title">
 <h4>
 <a href=" /2010/07/18/mediaboxAdvanced.html">重新来过</a>
 <abbr title="July 18 2010">July 18</abbr>
 </h4>
 </div>
-<div class="entry-content"><p>lighttpd不知道为什么启不来，郁闷了，之前的文章也丢了</p>
+<div class="entry-content"><p>lighttpd 不知道为什么启不来，郁闷了，之前的文章也丢了</p>
 <p><a href="http://iaian7.com/webcode/mediaboxAdvanced/" rel="external">http://iaian7.com/webcode/mediaboxAdvanced/</a></p>
-<p>本来想放<a href="http://vimeo.com/13240711" title="Gnarcade on Vimeo">Gnarcade</a>，算了，某物搞的咱很郁闷，放<a href="http://www.youtube.com/watch?v=RDlJ5mXvA08" title="People hate PHP">这个</a>，嘿嘿<br />
+<p>本来想放 <a href="http://vimeo.com/13240711" title="Gnarcade on Vimeo">Gnarcade</a>，算了，某物搞的咱很郁闷，放 <a href="http://www.youtube.com/watch?v=RDlJ5mXvA08" title="People hate PHP">这个</a>，嘿嘿<br />
 <a rel="external" href="http://repo.donie.me/Day_Night.mp4" title="Pixar: Day&amp;Night">bonus</a></p></div>
-</article>
-
-<article id="f3">
-<div class="entry-title">
-<h4>
-<a href=" /2010/07/12/no_title_2.html">无题（二）</a>
-<abbr title="July 12 2010">July 12</abbr>
-</h4>
-</div>
-<div class="entry-content"><p>搞了个 <a href="http://gandi.net" rel="external">gandi</a> 的证书：先用openssl生成CSR和KEY文件，然后将CSR发给gandi等待生成CRT（用文本编辑器打开看看是否有内容，一般短时间内生成的CRT是无效的，密钥部分全是空的，我是睡了一觉起来，证书才准备好了）。<br />
-然后</p>
-<pre>$ cat host.key host.crt &gt; host.pem</pre>
-<p>lighty conf中加上如下内容，算vhost吧？</p>
-<pre>$SERVER["socket"] == "IP:443" {
-    ssl.engine = "enable"
-    ssl.pemfile = "/etc/lighttpd/ssl/fq.dn/host.pem"
-    ssl.ca-file = "/etc/lighttpd/ssl/fq.dn/host.crt"
-    server.name = "fq.dn"
-    server.document-root = "/var/www/fq.dn"
-}</pre>
-<p>done，不过firefox竟然认不到gandi的证书，Safari/IE/Opera/Chrome正常，是不是该去Bugzilla提去～</p></div>
 </article>
 
 <!-- pagenav -->

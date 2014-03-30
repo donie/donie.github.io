@@ -18,7 +18,7 @@
 <article>
 <div class="entry-title">
 <h4> <a href="/2010/07/12/no_title_2.html"> 无题（二） </a> </h4>
-<p>搞了个 <a href="http://gandi.net" rel="external">gandi</a> 的证书：先用openssl生成CSR和KEY文件，然后将CSR发给gandi等待生成CRT（用文本编辑器打开看看是否有内容，一般短时间内生成的CRT是无效的，密钥部分全是空的，我是睡了一觉起来，证书才准备好了）。<br />
+<p>搞了个 <a href="http://gandi.net" rel="external">gandi</a> 的证书：先用 openssl 生成 <span class="caps">CSR</span> 和 <span class="caps">KEY</span> 文件，然后将 <span class="caps">CSR</span> 发给 gandi 等待生成 CRT（用文本编辑器打开看看是否有内容，一般短时间内生成的 <span class="caps">CRT</span> 是无效的，密钥部分全是空的，我是睡了一觉起来，证书才准备好了）。<br />
 然后</p>
 <pre>$ cat host.key host.crt &gt; host.pem</pre>
 <p>lighty conf中加上如下内容，算vhost吧？</p>
@@ -29,7 +29,7 @@
     server.name = "fq.dn"
     server.document-root = "/var/www/fq.dn"
 }</pre>
-<p>done，不过firefox竟然认不到gandi的证书，Safari/IE/Opera/Chrome正常，是不是该去Bugzilla提去～</p>
+<p>done，不过 firefox 竟然认不到 gandi 的证书，Safari/IE/Opera/Chrome 正常，是不是该去 Bugzilla 提去～</p>
 <p class="meta">12 Jul 2010</p>
 </article>
 
