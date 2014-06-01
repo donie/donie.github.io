@@ -56,8 +56,8 @@ article p.meta { margin-top: 5px; text-align: justify; color: #999; font-size: .
 
 /* messed up */
 img { max-width: 90%; }
-pre, code { background: #EEE; margin: 3px 5px 1.3em 5px; padding-left: 6px; font-family: Monaco, Consolas, 'Bitstream Vera Sans Mono', 'Courier New', Courier, monospace; font-size: 12px; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; }
-blockquote { background: #EEE; padding-left: .3em; border-radius: .3em; }
+pre, code { background: #EEE; margin: 3px 1em 1em 5px; padding-left: 6px; font-family: Monaco, Consolas, 'Bitstream Vera Sans Mono', 'Courier New', Courier, monospace; font-size: 12px; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; }
+blockquote { background: #EEE; margin: 3px 1em 1em 1.5em; padding-left: .3em; border-radius: .3em; }
 dl#archive dt { font: 1.6em/1 'Century Gothic', sans-serif; width: 2.4em; float: left; }
 dl#archive dl strong { font-weight: normal; }
 dl#archive dd { font-family: palatino, 'times new roman', serif; text-align: justify !important; margin-left: 5.1em; font-size: 1.2em; line-height: 1.4em; }

@@ -39,7 +39,7 @@
 <p>Just beware, according from the vimwiki docs,</p>
 
 <blockquote><p>The following arguments, in this order, are passed to the
-|vimwiki-option-custom_wiki2html| script:</p>
+ |vimwiki-option-custom_wiki2html| script:</p>
 
 <ol>
 <li>force : [0/1] overwrite an existing file</li>
@@ -51,13 +51,13 @@
 <li>template_path : the full path to the wiki's templates</li>
 <li>template_default : the default template name</li>
 <li>template_ext : the extension of template files</li>
-<li>root_path : a count of ../ for pages buried in subdirs
+<li> root_path : a count of ../ for pages buried in subdirs
 if you have wikilink [[dir1/dir2/dir3/my page in a subdir]] then
 e  %root_path% is replaced by '../../../'.</li>
 </ol>
 
 
-<p><strong>Options 7-10 are experimental and may change in the future.  If any of  > these parameters is empty, then a hyphen "-" is passed to the script in > its place.</strong></p></blockquote>
+<p><strong>Options 7-10 are experimental and may change in the future.  If any of   these parameters is empty, then a hyphen "-" is passed to the script in its place.</strong></p></blockquote>
 
 <p>The current python script may not able to accept these options as they only accepting staring 7 arguments, so far I add the handler into python script as these to make script working:</p>
 
