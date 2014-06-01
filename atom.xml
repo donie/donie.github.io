@@ -4,13 +4,79 @@
  <title>donie's notes</title>
  <link href="http://weblog.donie.me/atom.xml" rel="self"/>
  <link href="http://weblog.donie.me/"/>
- <updated>2014-05-31T23:07:09+08:00</updated>
+ <updated>2014-06-01T15:47:27+08:00</updated>
  <id>http://weblog.donie.me/</id>
  <author>
    <name>Li Sun</name>
    <email>c@donie.me</email>
  </author>
 
+ 
+ <entry>
+   <title>vimwiki & markdown HTML export</title>
+   <link href="http://weblog.donie.me/2014/06/01/vimwiki_markdown.html"/>
+   <updated>2014-06-01T00:00:00+08:00</updated>
+   <id>http://weblog.donie.me/2014/06/01/vimwiki_markdown</id>
+   <content type="html">&lt;p&gt;In the vim list section of the &lt;code&gt;.vimrc&lt;/code&gt;file, include options:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;let g:vimwiki_list = [{&quot;path&quot;: ‘your_wiki_place”, &quot;path_html&quot;: ‘wiki_html_location’, &quot;syntax&quot;: &#39;markdown&#39;, &quot;ext&quot;: &#39;.mkd&#39;, &quot;css_file&quot;: ‘location of designated css’, &quot;custom_wiki2html&quot;: ‘link to the custom converter, i.e. misaka_md2html.py&#39;, &quot;auto_export&quot;: 1}]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Break down to the details:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;path&lt;/em&gt;: the original wiki files&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;path_html&lt;/em&gt;: the output html location&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;syntax&lt;/em&gt;: set as markdown&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;ext&lt;/em&gt;: whatever needed, you can use &lt;code&gt;.md&lt;/code&gt; or something else&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;custom_wiki2html&lt;/em&gt;: the converter executable location, i.e. the md2html script from &lt;a href=&quot;https://github.com/jason6/vimwiki_md2html/blob/master/misaka_md2html.py&quot;&gt;Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;auto_export&lt;/em&gt;: you may want auto export enabled&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;Just beware, according from the vimwiki docs,&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;The following arguments, in this order, are passed to the
+|vimwiki-option-custom_wiki2html| script:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;force : [0/1] overwrite an existing file&lt;/li&gt;
+&lt;li&gt;syntax : the syntax chosen for this wiki&lt;/li&gt;
+&lt;li&gt;extension : the file extension for this wiki&lt;/li&gt;
+&lt;li&gt;output_dir : the full path of the output directory, i.e. &#39;path_html&#39;&lt;/li&gt;
+&lt;li&gt;input_file : the full path of the wiki page&lt;/li&gt;
+&lt;li&gt;css_file : the full path of the css file for this wiki&lt;/li&gt;
+&lt;li&gt;template_path : the full path to the wiki&#39;s templates&lt;/li&gt;
+&lt;li&gt;template_default : the default template name&lt;/li&gt;
+&lt;li&gt;template_ext : the extension of template files&lt;/li&gt;
+&lt;li&gt;root_path : a count of ../ for pages buried in subdirs
+if you have wikilink [[dir1/dir2/dir3/my page in a subdir]] then
+e  %root_path% is replaced by &#39;../../../&#39;.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;p&gt;&lt;strong&gt;Options 7-10 are experimental and may change in the future.  If any of  &gt; these parameters is empty, then a hyphen &quot;-&quot; is passed to the script in &gt; its place.&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;The current python script may not able to accept these options as they only accepting staring 7 arguments, so far I add the handler into python script as these to make script working:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;parser.add_argument(&quot;cssfile&quot;, help=&quot;The css file (with absolute path) to &quot;
+        &quot;be referenced in the resulting html file.&quot;)
+_# modification start here_
+parser.add_argument(&quot;template_path&quot;, help=&quot;The css file (with absolute path) to &quot;
+        &quot;be referenced in the resulting html file.&quot;)
+parser.add_argument(&quot;template_default&quot;, help=&quot;The css file (with absolute path) to &quot;
+        &quot;be referenced in the resulting html file.&quot;)
+parser.add_argument(&quot;template_ext&quot;, help=&quot;The css file (with absolute path) to &quot;
+        &quot;be referenced in the resulting html file.&quot;)
+parser.add_argument(&quot;root_path&quot;, help=&quot;The css file (with absolute path) to &quot;
+        &quot;be referenced in the resulting html file.”)
+# modification ends
+ns = parser.parse_args()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Voila.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>每每</title>
