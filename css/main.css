@@ -1,7 +1,7 @@
 /* interesting stuffs */
 @-webkit-keyframes fadein{ 0% { opacity: .0; -webkit-transform-style: preserve-3d; -webkit-transform-origin: 0% 0%; -webkit-transform: perspective(800px) rotateY(-90deg) scale3d(0.9, 1, 1); } 100% { opacity: 1.0; -webkit-transform-style: preserve-3d; -webkit-transform-origin: 0% 0%; -webkit-transform: perspective(800px) rotateY(0deg) scale3d(1, 1, 1); } }
 @-webkit-keyframes fadein-sp{ 0% { opacity: .0; -webkit-transform-style: preserve-3d; -webkit-transform-origin: 0% 0%; -webkit-transform: perspective(800px) rotateY(-90deg) scale3d(0.9, 1, 1); } 48% { opacity: .0; -webkit-transform-style: preserve-3d; -webkit-transform-origin: 0% 0%; -webkit-transform: perspective(800px) rotateY(-90deg) scale3d(0.9, 1, 1); } 100% { opacity: 1.0; -webkit-transform-style: preserve-3d; -webkit-transform-origin: 0% 0%; -webkit-transform: perspective(800px) rotateY(0deg) scale3d(1, 1, 1); } }
-@-webkit-keyframes fadein-mobile{ 0% { opacity: .0; -webkit-transform-style: preserve-3d; -webkit-transform-origin: 0% 0%; -webkit-transform: perspective(800px) scale3d(0.3, 1, 1); } 100% { opacity: 1.0; -webkit-transform-style: preserve-3d; -webkit-transform-origin: 0% 0%; -webkit-transform: perspective(800px) scale3d(1, 1, 1); } } 
+@-webkit-keyframes fadein-mobile{ 0% { opacity: .0; -webkit-transform-style: preserve-3d; -webkit-transform-origin: 0% 0%; -webkit-transform: perspective(800px) scale3d(0.3, 1, 1); } 100% { opacity: 1.0; -webkit-transform-style: preserve-3d; -webkit-transform-origin: 0% 0%; -webkit-transform: perspective(800px) scale3d(1, 1, 1); } }
 #wrapper { -webkit-font-smoothing:antialiased; }
 #header, #fulla, #f1, #f2, #f3, #footer, .alignleft, article { -webkit-animation-name: fadein; -webkit-transform: translateZ(0); transform: translateZ(0); }
 .alignright { -webkit-animation-name: fadein-sp; -webkit-transform: translateZ(0); transform: translateZ(0); }
@@ -45,7 +45,7 @@ h4 { font-size: 1.05em;}
 h5, h6 { font-size: 1em; }
 h4 { font-family: "adelle", "Lucida Grande", sans-serif; "Hiragino Sans GB", Lucida, Verdana; }
 h4>abbr { display: inline-block; opacity: 0.6;  font-style: italic; font-family: 'Yanone Kaffeesatz'; font-size: 0.8em; line-height: 1.2em; /*font-style: italic; font-family: cambria, georgia, times, serif; border-bottom: 1px dotted #333;*/ }
-#content { width: 98%; }	
+#content { width: 98%; }
 article { border-bottom: 1px solid #cccccc; margin: 0 auto; }
 article p { margin-bottom: .6em; line-height: 1.5em; }
 article p.meta { margin-top: 5px; text-align: justify; color: #999; font-size: .9em; }
@@ -71,3 +71,8 @@ audio { width: 60%; height: 1em; padding-top: .3em; }
 @media only handheld and (max-width: 480px), screen and (max-device-width: 480px), screen and (max-width: 600px) { #wrapper { width: 93%; -webkit-text-size-adjust: 300%; } .alignleft, .alignright { padding-top: .6em; }}
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width: 600px) { #header, #fulla, #f1, #f2, #f3, #footer, .alignleft, .alignright, article { -webkit-animation-name: fadein-mobile; } #wrapper { -webkit-text-size-adjust: 150%; margin: 0 auto; font-size: 1.8em; line-height: 1.2em; } #header { margin: 0 auto; } img { max-width: 174%; } article p { line-height: 1em; } pre, code { background: #EEE; margin: 3px 5px 3px 5px; padding-left: 10px; font-family: Monaco, Consolas, 'Bitstream Vera Sans Mono', 'Courier New', Courier, monospace; font-size: 24px; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; } blockquote { background: #EEE; padding-left: .3em; border-radius: .3em; } .alignleft { font-size: 1.2em; line-height: 1.8em; } .alignright { font-size: 1.2em; line-height: 1.8em; } #footer {  font-size: .8em; margin-top: .5em; color: #AAA; margin-bottom: 50px; } #footer a { opacity: .6; font-style: italic; } }
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-device-width: 600px) { #header, #fulla, #f1, #f2, #f3, #footer, .alignleft, .alignright, article { -webkit-animation-name: fadein-mobile; } #wrapper { -webkit-text-size-adjust: 120% !important; margin: 0 auto; width: 67%; font-size: 1em; line-height: 1em; } #header { margin: 0 auto; } img { max-width: 174%; } article p { line-height: 1.1em; } pre, code { background: #EEE; margin: 3px 5px 3px 5px; padding-left: 10px; font-family: Monaco, Consolas, 'Bitstream Vera Sans Mono', 'Courier New', Courier, monospace; font-size: .9em; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; } blockquote { background: #EEE; padding-left: .3em; border-radius: .3em; } .alignleft { font-size: 1.1em; line-height: 1.2em; } .alignright { font-size: 1.1em; line-height: 1.2em; } #footer {  font-size: .8em; margin-top: .5em; color: #AAA; margin-bottom: 50px; } #footer a { opacity: .6; font-style: italic; } }
+@media only screen and (min-width: 1200px) {
+    #wrapper {
+        font-size: 1.2em;
+    }
+}
