@@ -22,15 +22,15 @@
 <p>As may noticed, this blog was moved to full static pages, thanks to <a href="https://github.com/mojombo/jekyll">Jekyll</a> , the fantastic page generator.</p>
 <p>As well, this procedure also evolves ruby stuffs, which cost about half and day for a newbie like me to sort all these things out. Trying to list all the problems I met below, 所谓以儆效尤啊, lol:</p>
 <p>rvm things, so following the topic in last article, version thing does cost a lot of time to deal with. At first, I would like to think that put</p>
-<div class="highlight"><pre><code class="bash">rvm list</code></pre></div><p>should list all ruby versions in the system, also include the version that come that from the system. But actually it&#8217;s <span class="caps">NOT</span>. so use this:</p>
-<div class="highlight"><pre><code class="bash">rvm system
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">rvm list</code></pre></div><p>should list all ruby versions in the system, also include the version that come that from the system. But actually it&#8217;s <span class="caps">NOT</span>. so use this:</p>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">rvm system
 ruby -v 
 ruby 1.8.7 <span class="o">(</span>2010-01-10 patchlevel 249<span class="o">)</span> <span class="o">[</span>universal-darwin11.0<span class="o">]</span></code></pre></div><p>Voila.</p>
 <p>For import textpattern blog posts to Jekyll, this part is pretty funny though. First, you&#8217;ll need to copy the import utility(textpattern.rb) to local disk, and use the ruby file to import all you posts. Grab the open_gem to meet the prerequisite:</p>
-<div class="highlight"><pre><code class="bash">gem install open_gem</code></pre></div><p>than</p>
-<div class="highlight"><pre><code class="bash">gem open jekyll</code></pre></div><p>On my laptop, this will let vim to open the package structure, open that file and save it into wherever you want. then import data from txp database</p>
-<div class="highlight"><pre><code class="ruby"><span class="n">ruby</span> <span class="o">-</span><span class="n">r</span> <span class="s1">&#39;./_import/textpattern.rb&#39;</span> <span class="o">-</span><span class="n">e</span> <span class="s1">&#39;Jekyll::TextPattern.process(&quot;database_name&quot;, &quot;username&quot;, &quot;password&quot;, &quot;hostname&quot;)&#39;</span></code></pre></div><p>This file&#8217;s operation could be tricky, it&#8217;s database name was hard coded as &#8220;textpattern&#8221;, in my previous environment, the database name is txp_textpattern, so be aware of that. And also you may need add a new line</p>
-<div class="highlight"><pre><code class="ruby"><span class="kp">include</span> <span class="s1">&#39;yaml&#39;</span></code></pre></div><p>in the rb file, cause I met this problem.</p>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">gem install open_gem</code></pre></div><p>than</p>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">gem open jekyll</code></pre></div><p>On my laptop, this will let vim to open the package structure, open that file and save it into wherever you want. then import data from txp database</p>
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">ruby</span> <span class="o">-</span><span class="n">r</span> <span class="s1">&#39;./_import/textpattern.rb&#39;</span> <span class="o">-</span><span class="n">e</span> <span class="s1">&#39;Jekyll::TextPattern.process(&quot;database_name&quot;, &quot;username&quot;, &quot;password&quot;, &quot;hostname&quot;)&#39;</span></code></pre></div><p>This file&#8217;s operation could be tricky, it&#8217;s database name was hard coded as &#8220;textpattern&#8221;, in my previous environment, the database name is txp_textpattern, so be aware of that. And also you may need add a new line</p>
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="kp">include</span> <span class="s1">&#39;yaml&#39;</span></code></pre></div><p>in the rb file, cause I met this problem.</p>
 <p><em><span class="caps">TBD</span>.</em></p>
 <p class="meta">12 Sep 2011</p>
 </article>
