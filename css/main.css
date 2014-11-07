@@ -5,15 +5,15 @@
 #wrapper { -webkit-font-smoothing:antialiased; }
 #header, #fulla, #f1, #f2, #f3, #footer, .alignleft, article { -webkit-animation-name: fadein; -webkit-transform: translateZ(0); transform: translateZ(0); }
 .alignright { -webkit-animation-name: fadein-sp; -webkit-transform: translateZ(0); transform: translateZ(0); }
-#header { -webkit-animation-duration: .3s; }
-#fulla { -webkit-animation-duration: .6s; }
-#f1 { -webkit-animation-duration: .6s; }
-#f2 { -webkit-animation-duration: .9s; }
-#f3 { -webkit-animation-duration: 1.2s;}
-#footer { -webkit-animation-duration: 1.5s; }
-.alignleft { -webkit-animation-duration: 1.5s; }
-.alignright { -webkit-animation-duration: 1.5s; }
-article { -webkit-animation-duration: .6s; }
+#header { -webkit-animation-duration: .1s; }
+#fulla { -webkit-animation-duration: .3s; }
+#f1 { -webkit-animation-duration: .2s; }
+#f2 { -webkit-animation-duration: .3s; }
+#f3 { -webkit-animation-duration: .4s;}
+#footer { -webkit-animation-duration: .3s; }
+.alignleft { -webkit-animation-duration: .3s; }
+.alignright { -webkit-animation-duration: .3s; }
+article { -webkit-animation-duration: .3s; }
 #f1 { -moz-animation-name: f1; -moz-animation-duration: .75s; position: relative; }
 @-moz-keyframes f1 { 0% {top: 0px; opacity: 0; } 67% { top: 23px; opacity: 0; } 100% { top: 0px; opacity: 1; } }
 #f2 { -moz-animation-name: f2; -moz-animation-duration: 1.25s; position: relative; }
@@ -28,14 +28,15 @@ article { -webkit-animation-duration: .6s; }
 /* main things */
 ::selection { background: rgba(255,255,150,.9); color: #333; }
 ::-moz-selection { background: rgba(255,255,150,.9); color: #333; /*text-shadow: #993044 0 1px 0;*/ }
-a { color: rgba(0,144,226,.9); text-decoration: none; }
+a { color: /*rgba(0, 168, 198, 1.0);*/ rgba(0,144,226,.9); text-decoration: none; }
 a:hover, a:active { text-decoration: underline; }
 p { margin: 0; padding: 0; }
 
 /* main */
-html { background: whitesmoke; }
+html { background: white; }
 #wrapper { margin: 0 auto; width: 600px; text-align: left; padding-top: 9px; color: #555; text-shadow: rgba(255,254,255,0.6) 0 1px 0; -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; font: 500 14px/1.8 "adelle", Georgia, sans-serif, "Source Hans Sans SC"; text-align: left; word-wrap: break-word; }
-#header { font-family: 'chaparral-pro-display', 'Chaparral Pro', 'Palatino Linotype', 'Hoefler Text', georgia; font-size: 2.0em; line-height: 2.4em; float: left; }
+#header { font-family: Skia, Helvetica, georgia; font-weight: 100; font-size: 1.8em; line-height: 2.4em; float: left; }
+#header a { color: rgba(78, 79, 84, .75); }
 #header a:hover, #header a:active { text-decoration: none; }
 h1, h2, h3, h4, h5, h6 { margin-top: 0.8em; margin-bottom: 0.5em; line-height: 1.5; }
 h1 { font-size: 1.8em; }
