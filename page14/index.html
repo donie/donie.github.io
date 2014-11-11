@@ -20,6 +20,28 @@
 <article id="f1">
 <div class="entry-title">
 <h4>
+<a href=" /2011/09/12/learn_ruby_002.html">.r002</a>
+<abbr title="September 12 2011">September 12</abbr>
+</h4>
+</div>
+<div class="entry-content"><p>As may noticed, this blog was moved to full static pages, thanks to <a href="https://github.com/mojombo/jekyll">Jekyll</a> , the fantastic page generator.</p>
+<p>As well, this procedure also evolves ruby stuffs, which cost about half and day for a newbie like me to sort all these things out. Trying to list all the problems I met below, 所谓以儆效尤啊, lol:</p>
+<p>rvm things, so following the topic in last article, version thing does cost a lot of time to deal with. At first, I would like to think that put</p>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">rvm list</code></pre></div><p>should list all ruby versions in the system, also include the version that come that from the system. But actually it&#8217;s <span class="caps">NOT</span>. so use this:</p>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">rvm system
+ruby -v 
+ruby 1.8.7 <span class="o">(</span>2010-01-10 patchlevel 249<span class="o">)</span> <span class="o">[</span>universal-darwin11.0<span class="o">]</span></code></pre></div><p>Voila.</p>
+<p>For import textpattern blog posts to Jekyll, this part is pretty funny though. First, you&#8217;ll need to copy the import utility(textpattern.rb) to local disk, and use the ruby file to import all you posts. Grab the open_gem to meet the prerequisite:</p>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">gem install open_gem</code></pre></div><p>than</p>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">gem open jekyll</code></pre></div><p>On my laptop, this will let vim to open the package structure, open that file and save it into wherever you want. then import data from txp database</p>
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">ruby</span> <span class="o">-</span><span class="n">r</span> <span class="s1">&#39;./_import/textpattern.rb&#39;</span> <span class="o">-</span><span class="n">e</span> <span class="s1">&#39;Jekyll::TextPattern.process(&quot;database_name&quot;, &quot;username&quot;, &quot;password&quot;, &quot;hostname&quot;)&#39;</span></code></pre></div><p>This file&#8217;s operation could be tricky, it&#8217;s database name was hard coded as &#8220;textpattern&#8221;, in my previous environment, the database name is txp_textpattern, so be aware of that. And also you may need add a new line</p>
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="kp">include</span> <span class="s1">&#39;yaml&#39;</span></code></pre></div><p>in the rb file, cause I met this problem.</p>
+<p><em><span class="caps">TBD</span>.</em></p></div>
+</article>
+
+<article id="f2">
+<div class="entry-title">
+<h4>
 <a href=" /2011/09/10/learn_ruby_001.html">.r001</a>
 <abbr title="September 10 2011">September 10</abbr>
 </h4>
@@ -33,7 +55,7 @@ First day, meet something frustrating, following logs when trying to access the 
 <p>After playing with this for some time, off the top of my head: <span class="caps">WTF</span>, don&#8217;t they guys  find that the whole version things does messed people around? Hope will learn the story behind this in the future.</p></div>
 </article>
 
-<article id="f2">
+<article id="f3">
 <div class="entry-title">
 <h4>
 <a href=" /2011/08/31/the_talk.html">夏</a>
@@ -44,17 +66,6 @@ First day, meet something frustrating, following logs when trying to access the 
 直到看到 <a href='http://neunhundertneunundneunzig.blogspot.com/2011/08/plan066.html'>这篇 </a> 之前，我还是想抱着无聊的态度来继续抱怨两句。在 tw 待了段时间之后，除了感受天朝文字历史之悠长两岸各圈之一般黑外，就是身心的无以为继。 <em>呜，这几个月脑袋就没有这么高速运转过。</em> 前段时间话题很多的 crush notifier，我很想坦白的对一个人说，俺喜欢你。为什么 TM 的要通过这中介，为什么要在 facebook 上 in a relationship with someone。(虽然在社交网络里这段子确实挺有意思）。 <br />
 现在的媒体都是赶着时间奔向生命最终点，没有那个空闲弯腰喘息，八卦娱乐恶搞煽情玩清新，才没那个空间让你思考，瞧，这博客就用了多少重复的词句。</p>
 <p>陷在虚拟世界的人能凑到窗边呼吸下外面的空气吗，哪怕是汽车尾气，说你呢，魂淡博主</p></div>
-</article>
-
-<article id="f3">
-<div class="entry-title">
-<h4>
-<a href=" /2011/07/31/struggling.html">挣扎</a>
-<abbr title="July 31 2011">July 31</abbr>
-</h4>
-</div>
-<div class="entry-content"><p>似乎还是在一条单行道上隅隅<em>前行</em>，不知道如何是好。<br />
-时间你这个＊＊＊＊＊＊。</p></div>
 </article>
 
 <!-- pagenav -->
