@@ -20,6 +20,74 @@
 <article id="f1">
 <div class="entry-title">
 <h4>
+<a href=" /2014/06/01/vimwiki_markdown.html">vimwiki & markdown HTML export</a>
+<abbr title="June 01 2014">June 01</abbr>
+</h4>
+</div>
+<div class="entry-content"><p>In the vim list section of the <code>.vimrc</code>file, include options:</p>
+
+<pre><code>let g:vimwiki_list = [{"path": ‘your_wiki_place”, "path_html": ‘wiki_html_location’, "syntax": 'markdown', "ext": '.mkd', "css_file": ‘location of designated css’, "custom_wiki2html": ‘link to the custom converter, i.e. misaka_md2html.py', "auto_export": 1}]
+</code></pre>
+
+<p>Break down to the details:</p>
+
+<ul>
+<li><em>path</em>: the original wiki files</li>
+<li><em>path_html</em>: the output html location</li>
+<li><em>syntax</em>: set as markdown</li>
+<li><em>ext</em>: whatever needed, you can use <code>.md</code> or something else</li>
+<li><em>custom_wiki2html</em>: the converter executable location, i.e. the md2html script from <a href="https://github.com/jason6/vimwiki_md2html/blob/master/misaka_md2html.py">Github</a></li>
+<li><em>auto_export</em>: you may want auto export enabled</li>
+</ul>
+
+
+<p>Just beware, according from the vimwiki docs,</p>
+
+<blockquote><p>The following arguments, in this order, are passed to the
+ |vimwiki-option-custom_wiki2html| script:</p>
+
+<ol>
+<li>force : [0/1] overwrite an existing file</li>
+<li>syntax : the syntax chosen for this wiki</li>
+<li>extension : the file extension for this wiki</li>
+<li>output_dir : the full path of the output directory, i.e. 'path_html'</li>
+<li>input_file : the full path of the wiki page</li>
+<li>css_file : the full path of the css file for this wiki</li>
+<li>template_path : the full path to the wiki's templates</li>
+<li>template_default : the default template name</li>
+<li>template_ext : the extension of template files</li>
+<li>root_path : a count of ../ for pages buried in subdirs
+if you have wikilink [[dir1/dir2/dir3/my page in a subdir]] then
+e  %root_path% is replaced by '../../../'.</li>
+</ol>
+
+
+<p><strong>Options 7-10 are experimental and may change in the future.  If any of   these parameters is empty, then a hyphen "-" is passed to the script in its place.</strong></p></blockquote>
+
+<p>The current python script may not able to accept these options as they only accepting staring 7 arguments, so far I add the handler into python script as these to make script working:</p>
+
+<pre><code>parser.add_argument("cssfile", help="The css file (with absolute path) to "
+        "be referenced in the resulting html file.")
+_# modification start here_
+parser.add_argument("template_path", help="The css file (with absolute path) to "
+        "be referenced in the resulting html file.")
+parser.add_argument("template_default", help="The css file (with absolute path) to "
+        "be referenced in the resulting html file.")
+parser.add_argument("template_ext", help="The css file (with absolute path) to "
+        "be referenced in the resulting html file.")
+parser.add_argument("root_path", help="The css file (with absolute path) to "
+        "be referenced in the resulting html file.”)
+# modification ends
+ns = parser.parse_args()
+</code></pre>
+
+<p>Voila.</p>
+</div>
+</article>
+
+<article id="f2">
+<div class="entry-title">
+<h4>
 <a href=" /2014/05/31/time.html">每每</a>
 <abbr title="May 31 2014">May 31</abbr>
 </h4>
@@ -28,7 +96,7 @@
 </div>
 </article>
 
-<article id="f2">
+<article id="f3">
 <div class="entry-title">
 <h4>
 <a href=" /2014/05/01/time_machine.html">倒流</a>
@@ -36,17 +104,6 @@
 </h4>
 </div>
 <div class="entry-content"><p>原来时间是如此锐利的武器，只是时不时方向会朝向自己。</p>
-</div>
-</article>
-
-<article id="f3">
-<div class="entry-title">
-<h4>
-<a href=" /2014/03/30/calm_down.html">冷静冷静</a>
-<abbr title="March 30 2014">March 30</abbr>
-</h4>
-</div>
-<div class="entry-content"><p>管它什么的，不要浪费时间，好好学习。</p>
 </div>
 </article>
 

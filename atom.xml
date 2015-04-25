@@ -4,13 +4,22 @@
  <title>donie's notes</title>
  <link href="http://weblog.donie.me/atom.xml" rel="self"/>
  <link href="http://weblog.donie.me/"/>
- <updated>2015-02-22T17:22:42+08:00</updated>
+ <updated>2015-04-25T18:31:03+08:00</updated>
  <id>http://weblog.donie.me/</id>
  <author>
    <name>Li Sun</name>
    <email>c@donie.me</email>
  </author>
 
+ 
+ <entry>
+   <title>圣人模式</title>
+   <link href="http://weblog.donie.me/2015/03/31/re.html"/>
+   <updated>2015-03-31T00:00:00+08:00</updated>
+   <id>http://weblog.donie.me/2015/03/31/re</id>
+   <content type="html">&lt;p&gt;I just don&#39;t get it.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Re-evaluate</title>
@@ -141,7 +150,7 @@
 &lt;li&gt;template_path : the full path to the wiki&#39;s templates&lt;/li&gt;
 &lt;li&gt;template_default : the default template name&lt;/li&gt;
 &lt;li&gt;template_ext : the extension of template files&lt;/li&gt;
-&lt;li&gt; root_path : a count of ../ for pages buried in subdirs
+&lt;li&gt;root_path : a count of ../ for pages buried in subdirs
 if you have wikilink [[dir1/dir2/dir3/my page in a subdir]] then
 e  %root_path% is replaced by &#39;../../../&#39;.&lt;/li&gt;
 &lt;/ol&gt;
