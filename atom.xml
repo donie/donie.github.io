@@ -4,7 +4,7 @@
  <title>donie's notes</title>
  <link href="http://weblog.donie.me/atom.xml" rel="self"/>
  <link href="http://weblog.donie.me/"/>
- <updated>2015-06-28T21:24:28+09:00</updated>
+ <updated>2015-06-28T21:28:03+09:00</updated>
  <id>http://weblog.donie.me/</id>
  <author>
    <name>Li Sun</name>
@@ -19,7 +19,11 @@
    <id>http://weblog.donie.me/2015/06/28/no_titile_11</id>
    <content type="html">&lt;p&gt;Let me catch a little speed.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://c1.staticflickr.com/1/286/19204014786_2bc23fa331_z.jpg&quot; title=&quot;DSCF1680&quot; alt=&quot;DSCF1680 by Li Sun, on Flickr&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;[![DSCF1680 by Li Sun, on Flickr][2]][1]&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[1]: https://www.flickr.com/photos/forinec/19204014786
+[2]: https://c1.staticflickr.com/1/286/19204014786_2bc23fa331_z.jpg
+&lt;/code&gt;&lt;/pre&gt;
 </content>
  </entry>
  
