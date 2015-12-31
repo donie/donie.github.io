@@ -4,13 +4,22 @@
  <title>donie's notes</title>
  <link href="http://weblog.donie.me/atom.xml" rel="self"/>
  <link href="http://weblog.donie.me/"/>
- <updated>2015-11-30T21:21:02+08:00</updated>
+ <updated>2015-12-31T20:50:49+08:00</updated>
  <id>http://weblog.donie.me/</id>
  <author>
    <name>Li Sun</name>
    <email>c@donie.me</email>
  </author>
 
+ 
+ <entry>
+   <title>Oh</title>
+   <link href="http://weblog.donie.me/2015/12/31/berrint.html"/>
+   <updated>2015-12-31T00:00:00+08:00</updated>
+   <id>http://weblog.donie.me/2015/12/31/berrint</id>
+   <content type="html">&lt;p&gt;渐渐下定决心。&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>在哪里</title>
@@ -643,7 +652,7 @@ ns = parser.parse_args()
    <id>http://weblog.donie.me/2011/09/16/learn_ruby_003</id>
    <content type="html">&lt;p&gt;After the using rb file to import the posts from Textpattern, which I find a little bit tricky is that all posts&amp;#8217; detailed post time kinda lost, like original post time is &amp;#8220;Mar 15th, 2011 21:59:00&amp;#8221;, only the date were available exists, but the detail hour/minute got lost, kinda pity.&lt;/p&gt;
 &lt;p&gt;And for Jekyll part, I personally cloned this &lt;a href=&quot;http://mojombo.github.com&quot;&gt;repository&lt;/a&gt; , it definitely meet regular requirement for blogging. But if the pagination is a demand, add this line in _config.yml&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;ss&quot;&gt;paginate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;3 is the number of posts for each page. More information could be grab from &lt;a href=&quot;https://github.com/mojombo/jekyll/wiki/Pagination&quot;&gt;here&lt;/a&gt; . &lt;em&gt;See? It is in the wiki! But you can&amp;#8217;t find it on the wiki&amp;#8217;s home page.&lt;/em&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;ss&quot;&gt;paginate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;&lt;p&gt;3 is the number of posts for each page. More information could be grab from &lt;a href=&quot;https://github.com/mojombo/jekyll/wiki/Pagination&quot;&gt;here&lt;/a&gt; . &lt;em&gt;See? It is in the wiki! But you can&amp;#8217;t find it on the wiki&amp;#8217;s home page.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;On jekyll&amp;#8217;s page structure, basically, it start from the index.html in the root container, and uses the file _layout folder. Extremely like what I have in Textpattern :)&lt;/p&gt;
 &lt;p&gt;And for code highlighting, pygments is great, and also which is part of github&amp;#8217;s default setting(github uses jekyll  --pygments --safe), you may need put pygments: true in _config.xml. &lt;em&gt;Pygments does a bit slow&lt;/em&gt;&lt;/p&gt;
 &lt;blockquote&gt;
@@ -659,15 +668,15 @@ ns = parser.parse_args()
    <content type="html">&lt;p&gt;As may noticed, this blog was moved to full static pages, thanks to &lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;Jekyll&lt;/a&gt; , the fantastic page generator.&lt;/p&gt;
 &lt;p&gt;As well, this procedure also evolves ruby stuffs, which cost about half and day for a newbie like me to sort all these things out. Trying to list all the problems I met below, 所谓以儆效尤啊, lol:&lt;/p&gt;
 &lt;p&gt;rvm things, so following the topic in last article, version thing does cost a lot of time to deal with. At first, I would like to think that put&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;rvm list&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;should list all ruby versions in the system, also include the version that come that from the system. But actually it&amp;#8217;s &lt;span class=&quot;caps&quot;&gt;NOT&lt;/span&gt;. so use this:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;rvm system
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;rvm list&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;&lt;p&gt;should list all ruby versions in the system, also include the version that come that from the system. But actually it&amp;#8217;s &lt;span class=&quot;caps&quot;&gt;NOT&lt;/span&gt;. so use this:&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;rvm system
 ruby -v 
-ruby 1.8.7 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;2010-01-10 patchlevel 249&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;universal-darwin11.0&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Voila.&lt;/p&gt;
+ruby 1.8.7 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;2010-01-10 patchlevel 249&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;universal-darwin11.0&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;&lt;p&gt;Voila.&lt;/p&gt;
 &lt;p&gt;For import textpattern blog posts to Jekyll, this part is pretty funny though. First, you&amp;#8217;ll need to copy the import utility(textpattern.rb) to local disk, and use the ruby file to import all you posts. Grab the open_gem to meet the prerequisite:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;gem install open_gem&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;than&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;gem open jekyll&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;On my laptop, this will let vim to open the package structure, open that file and save it into wherever you want. then import data from txp database&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;ruby&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;r&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;./_import/textpattern.rb&amp;#39;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;e&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;Jekyll::TextPattern.process(&amp;quot;database_name&amp;quot;, &amp;quot;username&amp;quot;, &amp;quot;password&amp;quot;, &amp;quot;hostname&amp;quot;)&amp;#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This file&amp;#8217;s operation could be tricky, it&amp;#8217;s database name was hard coded as &amp;#8220;textpattern&amp;#8221;, in my previous environment, the database name is txp_textpattern, so be aware of that. And also you may need add a new line&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;kp&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;yaml&amp;#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;in the rb file, cause I met this problem.&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;gem install open_gem&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;&lt;p&gt;than&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;gem open jekyll&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;&lt;p&gt;On my laptop, this will let vim to open the package structure, open that file and save it into wherever you want. then import data from txp database&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;ruby&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;r&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;./_import/textpattern.rb&amp;#39;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;e&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;Jekyll::TextPattern.process(&amp;quot;database_name&amp;quot;, &amp;quot;username&amp;quot;, &amp;quot;password&amp;quot;, &amp;quot;hostname&amp;quot;)&amp;#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;&lt;p&gt;This file&amp;#8217;s operation could be tricky, it&amp;#8217;s database name was hard coded as &amp;#8220;textpattern&amp;#8221;, in my previous environment, the database name is txp_textpattern, so be aware of that. And also you may need add a new line&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;kp&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;yaml&amp;#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;&lt;p&gt;in the rb file, cause I met this problem.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&lt;span class=&quot;caps&quot;&gt;TBD&lt;/span&gt;.&lt;/em&gt;&lt;/p&gt;</content>
  </entry>
  
@@ -763,7 +772,7 @@ We&amp;#8217;ll talk tomorrow.&lt;/p&gt;
  
  <entry>
    <title>bad old time</title>
-   <link href="http://weblog.donie.me/2011/01/24/all_this_old_hard_c%CC%A7tranlationfromGoogle.html"/>
+   <link href="http://weblog.donie.me/2011/01/24/all_this_old_hard_c-tranlationfromGoogle.html"/>
    <updated>2011-01-24T00:00:00+08:00</updated>
    <id>http://weblog.donie.me/2011/01/24/all_this_old_hard_çtranlationfromGoogle</id>
    <content type="html">&lt;p&gt;怀旧风吹来： 最近在重新翻收藏夹，话说应该是从 firefox1.* 的时期过来的了。信不过那些检查死链的 addon，每一个链接都一一点开来，不行就重新 Google 一下 title，看是不是换域名了。我骨子里的 &lt;del&gt;xx情调&lt;/del&gt;  告诉我是时候感叹一下物是人非了。几年前收藏的尽是些稀奇古怪的论坛：围棋、游戏、flash、机器人、DIY；现在到尽是些 XX 入门，30天 &lt;span class=&quot;caps&quot;&gt;XXX&lt;/span&gt; 精通的，如果不说中间那些词（python, ror, etc……），说不定还以为我是搞传销的。！现在满世界都是在玩速成、玩突进，一本教材不是 in a nutshell，就不能所谓为教材，只能叫废话百科。还真是应了那句：飚着速度，飚着时间，飚向生命最终点。 &lt;br /&gt;
@@ -776,7 +785,7 @@ We&amp;#8217;ll talk tomorrow.&lt;/p&gt;
  
  <entry>
    <title>年终</title>
-   <link href="http://weblog.donie.me/2010/12/27/2010%3F.html"/>
+   <link href="http://weblog.donie.me/2010/12/27/2010.html"/>
    <updated>2010-12-27T00:00:00+08:00</updated>
    <id>http://weblog.donie.me/2010/12/27/2010?</id>
    <content type="html">&lt;p&gt;越来越烂了，是不是该做年终总结的时候了？&lt;br /&gt;
