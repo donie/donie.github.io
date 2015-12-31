@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="UTF-8">
+<link rel="dns-prefetch" href="//use.typekit.net">
+<meta name="author" content="Li Sun" />
+<link rel="stylesheet" type="text/css" href="/css/main.css" media="screen" />
+<link rel="alternate" type="application/rss+xml" title="donie's notes" href="http://feeds.feedburner.com/donie_notes" />
+<link rel="icon" type="image/x-ico" href="/assets/favicon3.ico?42" />
+<link rel="shortcut icon" href="/assets/favicon3.ico?42" />
+<link rel="apple-touch-icon-precomposed" href="/assets/main-icon.png" >
+<title>donie's notes | Awesome quotes from Tiny Tower</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"> <a href="/">donie's notes</a> </div>
+<div style="clear:both; border-bottom: 1px solid #ccc; width: 98%"></div>
+<div id="content">
+<article>
+<div class="entry-title">
+<h4> <a href="/2012/03/31/tiny-tower.html"> Awesome quotes from Tiny Tower </a> </h4>
+p. Aha，I'm not a spammer anyway.
+
+p. ps: Tiny tower's wiki is awesome --> : "http://tinytowerwiki.com/":http://tinytowerwiki.com/
+
+* _*A. Knight*_: Have you ever wondered we all exist inside a computer simulation?
+* _*Sherry Bailey*_: I believe that we were all born out of a little app icon. I know, sounds nuts.
+* _*Stacy Hunt*_: A _life_? Cool! Where do I download one of those?
+* _*Dianne Weaver*_: WOW! Just saw someone that had to be at least 20 pixels tall!
+* _*Alex Wright*_: Sometimes I wish I had more resolution.
+* _*S. Hamilton*_: Lost my contact! Everyone look for a clear pixel on the floor.
+* _*Stacy Hunt*(again!)_: Scientists have discovered sub-pixels! Mind-Boggling!
+* _*Clyde Silva*_: Sometimes I get the feeling that we are being watched.
+* _*Catherine Gary*_: I know I'm paranoid, but am I paranoid enough?
+
+p{color: whitesmoke}. Almost about saying those words to the girl...
+
+<p class="meta">31 Mar 2012</p>
+</article>
+
+
+<div id="footer"><div id="credits">2015 © all rights reserved. layout inspired by <a href="http://jimbarraud.com/manifest/">manifest</a>. <br>
+best viewed over the <a href="http://goo.gl/bIWJw">wall</a>. &nbsp;&nbsp;&nbsp;<a href="/log.html">sitelog</a>|&nbsp;<a href="/archive.html">archive</a>|&nbsp;<a href="/about.html">about</a></div></div>
+</div>
+</div>
+</body>
+<script type="text/javascript" src="//use.typekit.net/mfs0chf.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</html>

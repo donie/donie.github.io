@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="UTF-8">
+<link rel="dns-prefetch" href="//use.typekit.net">
+<meta name="author" content="Li Sun" />
+<link rel="stylesheet" type="text/css" href="/css/main.css" media="screen" />
+<link rel="alternate" type="application/rss+xml" title="donie's notes" href="http://feeds.feedburner.com/donie_notes" />
+<link rel="icon" type="image/x-ico" href="/assets/favicon3.ico?42" />
+<link rel="shortcut icon" href="/assets/favicon3.ico?42" />
+<link rel="apple-touch-icon-precomposed" href="/assets/main-icon.png" >
+<title>donie's notes | 无题（一）</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"> <a href="/">donie's notes</a> </div>
+<div style="clear:both; border-bottom: 1px solid #ccc; width: 98%"></div>
+<div id="content">
+<article>
+<div class="entry-title">
+<h4> <a href="/2009/08/20/no_title_1.html"> 无题（一） </a> </h4>
+很久没看影评了，最近翻看一下云中的 <a href="http://qing.cinepedia.cn/" rel="external">清影像</a>。其中关于前段时间很火的英国达人苏珊大婶的文章 <a href="http://qing.cinepedia.cn/?p=1186" rel="external">http://qing.cinepedia.cn/?p=1186</a>：
+
+bq. 可是，为什么要觉得是“反差”，为什么“一个大妈模样、失业的小村居民、47年连吻都没接过的人”就注定成为负面信息，而“唱出这样动人的歌曲”就理所应当成为正面教材呢？如果没有前面这个“负面信息”的铺堑，后面大概也没多少人感动得起来因为唱得同样好的声音大把。实际上，这个视频之所以流传这么广，也正是这个“负面信息”。人们喜欢戏剧性、喜欢反差效果、喜欢励志情怀——也同样喜欢居高临下地同情、评价别人。所以为什么选秀节目这么火，一方面是人总有梦想；另一方面就是我们总喜欢评判别人。
+
+上面是云中的原文。不知道如果把这段话拿到心理学家那里会抛过来什么样的名词来镇住我们，其实看到这段话时的第一反应是： ??人人都是受虐狂.??  
+
+bq. “人们心目中”，这也许才是最操蛋、最压抑人性、最没有“尊重感”的原因。它宏大到让每一个人也不由自主地按照着“人们心目中”的模式来生活，接规则出牌你才算成功。并且，还会潜移默化地一群群人、一代代人传下去。但这个评判规则是谁制定的呢？“人们心目中”的成功者（媒体要负一半责任）。
+
+想起最近看的那部 <a href="http://www.douban.com/subject/2297265/" rel="external">浪潮</a>，但周围的人都陷入狂热之中时，集体和个体之间就只能取一。
+
+bq.  当人们在群众运动中丧失自我独立性，人们就得到一种新的自由——一种无愧疚地去恨、去恫吓、去撒谎、去凌虐、去背叛的自由。
+
+bq.  ??那些最大声呼吁自由的人，往往是最不乐于住在自由社会里的人。失意者因为受到自己的短处压迫，会把他们的失败归咎于现有的种种限制。实际上，他们最深的渴望是终结‘人人皆有自由’的现象。他们想要取消自由竞争，取消自由社会里人人都要经历的无情考验。  ——埃里克·霍弗《狂热分子》
+
+<p class="meta">20 Aug 2009</p>
+</article>
+
+
+<div id="footer"><div id="credits">2015 © all rights reserved. layout inspired by <a href="http://jimbarraud.com/manifest/">manifest</a>. <br>
+best viewed over the <a href="http://goo.gl/bIWJw">wall</a>. &nbsp;&nbsp;&nbsp;<a href="/log.html">sitelog</a>|&nbsp;<a href="/archive.html">archive</a>|&nbsp;<a href="/about.html">about</a></div></div>
+</div>
+</div>
+</body>
+<script type="text/javascript" src="//use.typekit.net/mfs0chf.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</html>

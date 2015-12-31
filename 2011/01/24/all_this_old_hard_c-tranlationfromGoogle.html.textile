@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="UTF-8">
+<link rel="dns-prefetch" href="//use.typekit.net">
+<meta name="author" content="Li Sun" />
+<link rel="stylesheet" type="text/css" href="/css/main.css" media="screen" />
+<link rel="alternate" type="application/rss+xml" title="donie's notes" href="http://feeds.feedburner.com/donie_notes" />
+<link rel="icon" type="image/x-ico" href="/assets/favicon3.ico?42" />
+<link rel="shortcut icon" href="/assets/favicon3.ico?42" />
+<link rel="apple-touch-icon-precomposed" href="/assets/main-icon.png" >
+<title>donie's notes | bad old time</title>
+</head>
+<body>
+<div id="wrapper">
+<div id="header"> <a href="/">donie's notes</a> </div>
+<div style="clear:both; border-bottom: 1px solid #ccc; width: 98%"></div>
+<div id="content">
+<article>
+<div class="entry-title">
+<h4> <a href="/2011/01/24/all_this_old_hard_c-tranlationfromGoogle.html"> bad old time </a> </h4>
+怀旧风吹来： 最近在重新翻收藏夹，话说应该是从 firefox1.* 的时期过来的了。信不过那些检查死链的 addon，每一个链接都一一点开来，不行就重新 Google 一下 title，看是不是换域名了。我骨子里的 -xx情调-  告诉我是时候感叹一下物是人非了。几年前收藏的尽是些稀奇古怪的论坛：围棋、游戏、flash、机器人、DIY；现在到尽是些 XX 入门，30天 XXX 精通的，如果不说中间那些词（python, ror, etc……），说不定还以为我是搞传销的。！现在满世界都是在玩速成、玩突进，一本教材不是 in a nutshell，就不能所谓为教材，只能叫废话百科。还真是应了那句：飚着速度，飚着时间，飚向生命最终点。 
+发现我走神的功力越来越强了，脑袋里想东西太杂就活该这样。其实用个很三俗的比喻就够了：人生就像那有始有终的火车，每个车厢都是人来人往。有些人住在你脑中，在你心里钻洞；有些人变成相片，堆在角落，灰尘象雪一样冰冻。最近在 twitter 上有人在 "说":https://twitter.com/wheat0r/status/20534195826720769  ：
+
+bq. @wheat0r: 把最真实的心情写在被封锁的国外一个微博的加密账号里，我把头埋在被子里泪流满面，知道我在想什么的都是在网上认识的不曾谋面的朋友，是什么让我变成了这样？ 
+
+只是心照不宣。
+
+<p class="meta">24 Jan 2011</p>
+</article>
+
+
+<div id="footer"><div id="credits">2015 © all rights reserved. layout inspired by <a href="http://jimbarraud.com/manifest/">manifest</a>. <br>
+best viewed over the <a href="http://goo.gl/bIWJw">wall</a>. &nbsp;&nbsp;&nbsp;<a href="/log.html">sitelog</a>|&nbsp;<a href="/archive.html">archive</a>|&nbsp;<a href="/about.html">about</a></div></div>
+</div>
+</div>
+</body>
+<script type="text/javascript" src="//use.typekit.net/mfs0chf.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</html>

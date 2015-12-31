@@ -4,26 +4,28 @@
 <meta charset="UTF-8">
 <link rel="dns-prefetch" href="//use.typekit.net">
 <meta name="author" content="Li Sun" />
-<link rel="stylesheet" type="text/css" href="/css/main.css" media="all" />
+<link rel="stylesheet" type="text/css" href="/css/main.css" media="screen" />
 <link rel="alternate" type="application/rss+xml" title="donie's notes" href="http://feeds.feedburner.com/donie_notes" />
 <link rel="icon" type="image/x-ico" href="/assets/favicon3.ico?42" />
 <link rel="shortcut icon" href="/assets/favicon3.ico?42" />
 <link rel="apple-touch-icon-precomposed" href="/assets/main-icon.png" >
-<title>donie's notes </title>
+<title>donie's notes | move up</title>
 </head>
 <body>
 <div id="wrapper">
 <div id="header"> <a href="/">donie's notes</a> </div>
 <div style="clear:both; border-bottom: 1px solid #ccc; width: 98%"></div>
 <div id="content">
+<article>
+<div class="entry-title">
+<h4> <a href="/2010/06/23/LX3_and_M-241A.html"> move up </a> </h4>
+<a href='http://www.dpreview.com/reviews/panasonicdmclx3/' rel='external'>LX3</a> 和 <a href='http://www.holux.com/JCore/en/products/products_content.jsp?pno=341' rel='external'>M-241a</a> 到了，也算更新换代了。Move up，扫街去。
+<a href='http://farm2.static.flickr.com/1106/4727074217_cde5955258_b_d.jpg' title='Holux m241a' /><img alt='click to enlarge' src='/images/m241a_zoom_out.jpg' /></a>
 
-<!-- pagenav -->
-<div class='alignleft'>
 
-<div class='alignright'>
-<a href="/page">Newer entries→</a></div>
-<div style="clear:both"></div>
-<!-- /pagenav -->
+<p class="meta">23 Jun 2010</p>
+</article>
+
 
 <div id="footer"><div id="credits">2015 © all rights reserved. layout inspired by <a href="http://jimbarraud.com/manifest/">manifest</a>. <br>
 best viewed over the <a href="http://goo.gl/bIWJw">wall</a>. &nbsp;&nbsp;&nbsp;<a href="/log.html">sitelog</a>|&nbsp;<a href="/archive.html">archive</a>|&nbsp;<a href="/about.html">about</a></div></div>
