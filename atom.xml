@@ -4,13 +4,22 @@
  <title>donie's notes</title>
  <link href="http://weblog.donie.me/atom.xml" rel="self"/>
  <link href="http://weblog.donie.me/"/>
- <updated>2016-05-31T23:09:44+08:00</updated>
+ <updated>2016-07-28T20:35:53+08:00</updated>
  <id>http://weblog.donie.me/</id>
  <author>
    <name>Li Sun</name>
    <email>c@donie.me</email>
  </author>
 
+ 
+ <entry>
+   <title>rise</title>
+   <link href="http://weblog.donie.me/2016/06/30/curise.html"/>
+   <updated>2016-06-30T00:00:00+08:00</updated>
+   <id>http://weblog.donie.me/2016/06/30/curise</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;https://www.flickr.com/photos/forinec/28325875645/&quot; title=&quot;X3F by Li Sun, on Flickr&quot;&gt;&lt;img src=&quot;https://c6.staticflickr.com/8/7286/28325875645_1376930ffc.jpg&quot; alt=&quot;X3F&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>空调</title>
