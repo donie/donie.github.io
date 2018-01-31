@@ -20,6 +20,16 @@
 <article id="f1">
 <div class="entry-title">
 <h4>
+<a href=" /2011/11/30/nian.html">无题（八）</a>
+<abbr title="November 30 2011">November 30</abbr>
+</h4>
+</div>
+<div class="entry-content"><p>天，12月！！！</p></div>
+</article>
+
+<article id="f2">
+<div class="entry-title">
+<h4>
 <a href=" /2011/10/26/so_true.html">无题（七）</a>
 <abbr title="October 26 2011">October 26</abbr>
 </h4>
@@ -27,7 +37,7 @@
 <div class="entry-content"><p>没什么好说的，自从回来之后，GFW的影子便无处不在，好好的网络不停的reset。真使人挺无奈的。更让人无奈的事实是：不论是什么内容放到互联网上都能形成对骂，quite magical。</p></div>
 </article>
 
-<article id="f2">
+<article id="f3">
 <div class="entry-title">
 <h4>
 <a href=" /2011/09/16/learn_ruby_003.html">.r003</a>
@@ -42,28 +52,6 @@
 <blockquote>
 <p>Well, I always said to myself, leave it tomorrow, you&#8217;ll have time to do it. In my face: I already forget details that have been done in this setup&#8230;</p>
 </blockquote></div>
-</article>
-
-<article id="f3">
-<div class="entry-title">
-<h4>
-<a href=" /2011/09/12/learn_ruby_002.html">.r002</a>
-<abbr title="September 12 2011">September 12</abbr>
-</h4>
-</div>
-<div class="entry-content"><p>As may noticed, this blog was moved to full static pages, thanks to <a href="https://github.com/mojombo/jekyll">Jekyll</a> , the fantastic page generator.</p>
-<p>As well, this procedure also evolves ruby stuffs, which cost about half and day for a newbie like me to sort all these things out. Trying to list all the problems I met below, 所谓以儆效尤啊, lol:</p>
-<p>rvm things, so following the topic in last article, version thing does cost a lot of time to deal with. At first, I would like to think that put</p>
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span></span>rvm list</code></pre></figure><p>should list all ruby versions in the system, also include the version that come that from the system. But actually it&#8217;s <span class="caps">NOT</span>. so use this:</p>
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span></span>rvm system
-ruby -v 
-ruby <span class="m">1</span>.8.7 <span class="o">(</span><span class="m">2010</span>-01-10 patchlevel <span class="m">249</span><span class="o">)</span> <span class="o">[</span>universal-darwin11.0<span class="o">]</span></code></pre></figure><p>Voila.</p>
-<p>For import textpattern blog posts to Jekyll, this part is pretty funny though. First, you&#8217;ll need to copy the import utility(textpattern.rb) to local disk, and use the ruby file to import all you posts. Grab the open_gem to meet the prerequisite:</p>
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span></span>gem install open_gem</code></pre></figure><p>than</p>
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span></span>gem open jekyll</code></pre></figure><p>On my laptop, this will let vim to open the package structure, open that file and save it into wherever you want. then import data from txp database</p>
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span></span><span class="n">ruby</span> <span class="o">-</span><span class="n">r</span> <span class="s1">&#39;./_import/textpattern.rb&#39;</span> <span class="o">-</span><span class="n">e</span> <span class="s1">&#39;Jekyll::TextPattern.process(&quot;database_name&quot;, &quot;username&quot;, &quot;password&quot;, &quot;hostname&quot;)&#39;</span></code></pre></figure><p>This file&#8217;s operation could be tricky, it&#8217;s database name was hard coded as &#8220;textpattern&#8221;, in my previous environment, the database name is txp_textpattern, so be aware of that. And also you may need add a new line</p>
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span></span><span class="kp">include</span> <span class="s1">&#39;yaml&#39;</span></code></pre></figure><p>in the rb file, cause I met this problem.</p>
-<p><em><span class="caps">TBD</span>.</em></p></div>
 </article>
 
 <!-- pagenav -->
