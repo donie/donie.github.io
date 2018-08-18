@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
- 
+
  <title>donie's notes</title>
  <link href="http://weblog.donie.me/atom.xml" rel="self"/>
  <link href="http://weblog.donie.me/"/>
- <updated>2018-01-31T23:12:47+08:00</updated>
+ <updated>2018-08-19T00:15:08+08:00</updated>
  <id>http://weblog.donie.me/</id>
  <author>
    <name>Li Sun</name>
@@ -13,11 +13,22 @@
 
  
  <entry>
+   <title>无题（十九）</title>
+   <link href="http://weblog.donie.me/2018/08/18/fintarle.html"/>
+   <updated>2018-08-18T00:00:00+08:00</updated>
+   <id>http://weblog.donie.me/2018/08/18/fintarle</id>
+   <content type="html">&lt;p&gt;敢想，胆大啊&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>倒时</title>
    <link href="http://weblog.donie.me/2018/01/31/marserry.html"/>
    <updated>2018-01-31T00:00:00+08:00</updated>
    <id>http://weblog.donie.me/2018/01/31/marserry</id>
-   <content type="html">&lt;blockquote&gt;&lt;p&gt;我听着海浪温柔的呼吸&lt;/p&gt;&lt;/blockquote&gt;
+   <content type="html">&lt;blockquote&gt;
+  &lt;p&gt;我听着海浪温柔的呼吸&lt;/p&gt;
+&lt;/blockquote&gt;
 </content>
  </entry>
  
@@ -26,7 +37,7 @@
    <link href="http://weblog.donie.me/2017/10/06/supara.html"/>
    <updated>2017-10-06T00:00:00+08:00</updated>
    <id>http://weblog.donie.me/2017/10/06/supara</id>
-   <content type="html">&lt;p&gt;&lt;a href=&quot;https://www.flickr.com/photos/forinec/36742361074&quot; title=&quot;L1000147 by Li Sun, on Flickr&quot;&gt;&lt;img src=&quot;https://farm5.staticflickr.com/4403/36742361074_d313917fe7.jpg&quot; alt=&quot;L1000147&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;a href=&quot;https://www.flickr.com/photos/forinec/36742361074&amp;quot;L1000147 by Li Sun, on Flickr&amp;quot;&quot;&gt;&lt;img src=&quot;https://farm5.staticflickr.com/4403/36742361074_d313917fe7.jpg&quot; alt=&quot;L1000147&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -35,7 +46,7 @@
    <link href="http://weblog.donie.me/2016/07/31/randhine.html"/>
    <updated>2016-07-31T00:00:00+08:00</updated>
    <id>http://weblog.donie.me/2016/07/31/randhine</id>
-   <content type="html">&lt;p&gt;&lt;a href=&quot;https://www.flickr.com/photos/forinec/28720173372&quot; title=&quot;SDIM0146 by Li Sun, on Flickr&quot;&gt;&lt;img src=&quot;https://c5.staticflickr.com/8/7501/28720173372_22da6434bb.jpg&quot; alt=&quot;SDIM0146&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;a href=&quot;https://www.flickr.com/photos/forinec/28720173372&amp;quot;SDIM0146 by Li Sun, on Flickr&amp;quot;&quot;&gt;&lt;img src=&quot;https://c5.staticflickr.com/8/7501/28720173372_22da6434bb.jpg&quot; alt=&quot;SDIM0146&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -53,7 +64,7 @@
    <link href="http://weblog.donie.me/2016/05/31/disont.html"/>
    <updated>2016-05-31T00:00:00+08:00</updated>
    <id>http://weblog.donie.me/2016/05/31/disont</id>
-   <content type="html">&lt;p&gt;It's about time.&lt;/p&gt;
+   <content type="html">&lt;p&gt;It’s about time.&lt;/p&gt;
 </content>
  </entry>
  
@@ -178,7 +189,7 @@
  </entry>
  
  <entry>
-   <title>无题（十一）</title>
+   <title>无题（十八）</title>
    <link href="http://weblog.donie.me/2015/06/28/no_titile_11.html"/>
    <updated>2015-06-28T00:00:00+08:00</updated>
    <id>http://weblog.donie.me/2015/06/28/no_titile_11</id>
@@ -217,7 +228,7 @@
    <link href="http://weblog.donie.me/2015/03/31/re.html"/>
    <updated>2015-03-31T00:00:00+08:00</updated>
    <id>http://weblog.donie.me/2015/03/31/re</id>
-   <content type="html">&lt;p&gt;I just don't get it.&lt;/p&gt;
+   <content type="html">&lt;p&gt;I just don’t get it.&lt;/p&gt;
 </content>
  </entry>
  
@@ -235,7 +246,7 @@
    <link href="http://weblog.donie.me/2015/01/31/refresh.html"/>
    <updated>2015-01-31T00:00:00+08:00</updated>
    <id>http://weblog.donie.me/2015/01/31/refresh</id>
-   <content type="html">&lt;p&gt;Just like any programs, people like to &lt;del&gt;reboot&lt;/del&gt; refresh their minds annually in order to clean the &lt;em&gt;cache&lt;/em&gt;. Hard to tell whether it's good/bad.&lt;/p&gt;
+   <content type="html">&lt;p&gt;Just like any programs, people like to &lt;del&gt;reboot&lt;/del&gt; refresh their minds annually in order to clean the &lt;em&gt;cache&lt;/em&gt;. Hard to tell whether it’s good/bad.&lt;/p&gt;
 </content>
  </entry>
  
@@ -248,15 +259,17 @@
 
 &lt;p&gt;有关正义，自从 &lt;a href=&quot;http://zh.wikipedia.org/wiki/Legal_high&quot;&gt;Legal High&lt;/a&gt; 播出之后，这类话题讨论很多次了。S01E04 那个提高期望值的桥段这样说：&lt;/p&gt;
 
-&lt;blockquote&gt;&lt;p&gt;&lt;strong&gt;古美门&lt;/strong&gt;：你口中所谓的正义，只是居高临下的同情而已，不过是怜悯每次出现在眼前的可怜之人。&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;古美门&lt;/strong&gt;：你口中所谓的正义，只是居高临下的同情而已，不过是怜悯每次出现在眼前的可怜之人。&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;黛&lt;/strong&gt;：可是，如果你否定这种行为的话，那么正义又在哪里？&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;黛&lt;/strong&gt;：可是，如果你否定这种行为的话，那么正义又在哪里？&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;古美门&lt;/strong&gt;：你我们又不是神，怎么可能会知道那种东西。你就认为正义只存在于 特摄英雄剧和《少年JUMP》中吧。为了自己委托人的利益全身而战。我们律师能做的只有这个，也不应该去做越份的事，明白了吗？晨间剧女主！&lt;/p&gt;&lt;/blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;古美门&lt;/strong&gt;：你我们又不是神，怎么可能会知道那种东西。你就认为正义只存在于 特摄英雄剧和《少年JUMP》中吧。为了自己委托人的利益全身而战。我们律师能做的只有这个，也不应该去做越份的事，明白了吗？晨间剧女主！&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;结合情境这么说没问题，还很热血(本来就是热血剧啊，喂!)。可是从很多人的评论来看似乎就否认了这种同情心的必要，对可以帮助他人的时候力所能及帮忙怎样也不是不意义的行为吧。&lt;/p&gt;
 
-&lt;p&gt;p.s. 有个点子，visualized tool for localization。Let's see how it will works。&lt;/p&gt;
+&lt;p&gt;p.s. 有个点子，visualized tool for localization。Let’s see how it will works。&lt;/p&gt;
 </content>
  </entry>
  
@@ -274,7 +287,7 @@
  </entry>
  
  <entry>
-   <title>无题（十五）</title>
+   <title>无题（十七）</title>
    <link href="http://weblog.donie.me/2014/10/31/all_these_days.html"/>
    <updated>2014-10-31T00:00:00+08:00</updated>
    <id>http://weblog.donie.me/2014/10/31/all_these_days</id>
@@ -287,8 +300,7 @@
    <link href="http://weblog.donie.me/2014/09/30/listen!.html"/>
    <updated>2014-09-30T00:00:00+08:00</updated>
    <id>http://weblog.donie.me/2014/09/30/listen!</id>
-   <content type="html">&lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;//www.youtube.com/embed/PSYRdI-13dI?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
-
+   <content type="html">&lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;//www.youtube.com/embed/PSYRdI-13dI?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
@@ -318,49 +330,53 @@
    <link href="http://weblog.donie.me/2014/06/01/vimwiki_markdown.html"/>
    <updated>2014-06-01T00:00:00+08:00</updated>
    <id>http://weblog.donie.me/2014/06/01/vimwiki_markdown</id>
-   <content type="html">&lt;p&gt;In the vim list section of the &lt;code&gt;.vimrc&lt;/code&gt;file, include options:&lt;/p&gt;
+   <content type="html">&lt;p&gt;In the vim list section of the &lt;code class=&quot;highlighter-rouge&quot;&gt;.vimrc&lt;/code&gt;file, include options:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;let g:vimwiki_list = [{&quot;path&quot;: ‘your_wiki_place”, &quot;path_html&quot;: ‘wiki_html_location’, &quot;syntax&quot;: 'markdown', &quot;ext&quot;: '.mkd', &quot;css_file&quot;: ‘location of designated css’, &quot;custom_wiki2html&quot;: ‘link to the custom converter, i.e. misaka_md2html.py', &quot;auto_export&quot;: 1}]
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;let g:vimwiki_list = [{&quot;path&quot;: ‘your_wiki_place”, &quot;path_html&quot;: ‘wiki_html_location’, &quot;syntax&quot;: 'markdown', &quot;ext&quot;: '.mkd', &quot;css_file&quot;: ‘location of designated css’, &quot;custom_wiki2html&quot;: ‘link to the custom converter, i.e. misaka_md2html.py', &quot;auto_export&quot;: 1}]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Break down to the details:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;em&gt;path&lt;/em&gt;: the original wiki files&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;path_html&lt;/em&gt;: the output html location&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;syntax&lt;/em&gt;: set as markdown&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;ext&lt;/em&gt;: whatever needed, you can use &lt;code&gt;.md&lt;/code&gt; or something else&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;custom_wiki2html&lt;/em&gt;: the converter executable location, i.e. the md2html script from &lt;a href=&quot;https://github.com/jason6/vimwiki_md2html/blob/master/misaka_md2html.py&quot;&gt;Github&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;auto_export&lt;/em&gt;: you may want auto export enabled&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;path&lt;/em&gt;: the original wiki files&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;path_html&lt;/em&gt;: the output html location&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;syntax&lt;/em&gt;: set as markdown&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;ext&lt;/em&gt;: whatever needed, you can use &lt;code class=&quot;highlighter-rouge&quot;&gt;.md&lt;/code&gt; or something else&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;custom_wiki2html&lt;/em&gt;: the converter executable location, i.e. the md2html script from &lt;a href=&quot;https://github.com/jason6/vimwiki_md2html/blob/master/misaka_md2html.py&quot;&gt;Github&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;auto_export&lt;/em&gt;: you may want auto export enabled&lt;/li&gt;
 &lt;/ul&gt;
-
 
 &lt;p&gt;Just beware, according from the vimwiki docs,&lt;/p&gt;
 
-&lt;blockquote&gt;&lt;p&gt;The following arguments, in this order, are passed to the
+&lt;blockquote&gt;
+  &lt;p&gt;The following arguments, in this order, are passed to the
  |vimwiki-option-custom_wiki2html| script:&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;ol&gt;
-&lt;li&gt;force : [0/1] overwrite an existing file&lt;/li&gt;
-&lt;li&gt;syntax : the syntax chosen for this wiki&lt;/li&gt;
-&lt;li&gt;extension : the file extension for this wiki&lt;/li&gt;
-&lt;li&gt;output_dir : the full path of the output directory, i.e. 'path_html'&lt;/li&gt;
-&lt;li&gt;input_file : the full path of the wiki page&lt;/li&gt;
-&lt;li&gt;css_file : the full path of the css file for this wiki&lt;/li&gt;
-&lt;li&gt;template_path : the full path to the wiki's templates&lt;/li&gt;
-&lt;li&gt;template_default : the default template name&lt;/li&gt;
-&lt;li&gt;template_ext : the extension of template files&lt;/li&gt;
-&lt;li&gt;root_path : a count of ../ for pages buried in subdirs
-if you have wikilink [[dir1/dir2/dir3/my page in a subdir]] then
-e  %root_path% is replaced by '../../../'.&lt;/li&gt;
-&lt;/ol&gt;
+&lt;blockquote&gt;
+  &lt;ol&gt;
+    &lt;li&gt;force : [0/1] overwrite an existing file&lt;/li&gt;
+    &lt;li&gt;syntax : the syntax chosen for this wiki&lt;/li&gt;
+    &lt;li&gt;extension : the file extension for this wiki&lt;/li&gt;
+    &lt;li&gt;output_dir : the full path of the output directory, i.e. ‘path_html’&lt;/li&gt;
+    &lt;li&gt;input_file : the full path of the wiki page&lt;/li&gt;
+    &lt;li&gt;css_file : the full path of the css file for this wiki&lt;/li&gt;
+    &lt;li&gt;template_path : the full path to the wiki’s templates&lt;/li&gt;
+    &lt;li&gt;template_default : the default template name&lt;/li&gt;
+    &lt;li&gt;template_ext : the extension of template files&lt;/li&gt;
+    &lt;li&gt;root_path : a count of ../ for pages buried in subdirs
+  if you have wikilink [[dir1/dir2/dir3/my page in a subdir]] then
+  e  %root_path% is replaced by ‘../../../’.&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
 
-
-&lt;p&gt;&lt;strong&gt;Options 7-10 are experimental and may change in the future.  If any of   these parameters is empty, then a hyphen &quot;-&quot; is passed to the script in its place.&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Options 7-10 are experimental and may change in the future.  If any of   these parameters is empty, then a hyphen “-“ is passed to the script in its place.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;The current python script may not able to accept these options as they only accepting staring 7 arguments, so far I add the handler into python script as these to make script working:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;parser.add_argument(&quot;cssfile&quot;, help=&quot;The css file (with absolute path) to &quot;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;parser.add_argument(&quot;cssfile&quot;, help=&quot;The css file (with absolute path) to &quot;
         &quot;be referenced in the resulting html file.&quot;)
 _# modification start here_
 parser.add_argument(&quot;template_path&quot;, help=&quot;The css file (with absolute path) to &quot;
@@ -373,7 +389,7 @@ parser.add_argument(&quot;root_path&quot;, help=&quot;The css file (with absolut
         &quot;be referenced in the resulting html file.”)
 # modification ends
 ns = parser.parse_args()
-&lt;/code&gt;&lt;/pre&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Voila.&lt;/p&gt;
 </content>
@@ -431,7 +447,7 @@ ns = parser.parse_args()
    <id>http://weblog.donie.me/2013/12/31/wrap_up</id>
    <content type="html">&lt;p&gt;哎？！开始写之前满脑子的浆糊到哪儿去了&lt;/p&gt;
 
-&lt;p&gt;也罢，不走脑子都能想到如果别人问起我的自动答复了：same old，same old， still don't have a &lt;a href=&quot;http://en.wikipedia.org/wiki/Get_a_life_(idiom)&quot;&gt;LIFE&lt;/a&gt;， no clue how to get one。&lt;/p&gt;
+&lt;p&gt;也罢，不走脑子都能想到如果别人问起我的自动答复了：same old，same old， still don’t have a &lt;a href=&quot;http://en.wikipedia.org/wiki/Get_a_life_(idiom)&quot;&gt;LIFE&lt;/a&gt;， no clue how to get one。&lt;/p&gt;
 </content>
  </entry>
  
@@ -449,7 +465,7 @@ ns = parser.parse_args()
    <link href="http://weblog.donie.me/2013/10/31/hope.html"/>
    <updated>2013-10-31T00:00:00+08:00</updated>
    <id>http://weblog.donie.me/2013/10/31/hope</id>
-   <content type="html">&lt;p&gt;Hello...&lt;/p&gt;
+   <content type="html">&lt;p&gt;Hello…&lt;/p&gt;
 </content>
  </entry>
  
@@ -469,7 +485,7 @@ ns = parser.parse_args()
    <id>http://weblog.donie.me/2013/08/31/autumn</id>
    <content type="html">&lt;p&gt;文字的力量果然是无法衡量的&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://www.dropbox.com/s/txp1rl4ruytg2xl/%E8%99%8E%E6%89%91%E6%AD%A5%E8%A1%8C%E8%A1%97%E5%8E%9F%E5%88%9B%E5%A5%BD%E6%96%87%E2%80%94%E2%80%94%E5%9C%B0%E5%B9%B3%E7%BA%BF%E7%9A%84%E5%85%89.txt?dl=0&quot;&gt;地平线的光(from步行街)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.dropbox.com/s/txp1rl4ruytg2xl/虎扑步行街原创好文——地平线的光.txt?dl=0&quot;&gt;地平线的光(from步行街)&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -497,6 +513,7 @@ ns = parser.parse_args()
    <updated>2013-05-26T00:00:00+08:00</updated>
    <id>http://weblog.donie.me/2013/05/26/f</id>
    <content type="html">&lt;p&gt;重复着无数次的想法：只要迈出那一小步事情肯定是完全不一样的境况。可其时却怎么也跨不出那一步。&lt;/p&gt;
+
 </content>
  </entry>
  
@@ -508,20 +525,25 @@ ns = parser.parse_args()
    <content type="html">&lt;p&gt;Quick memo for a setup process for arch linux arm on &lt;abbr title=&quot;raspberrypi&quot;&gt;rpi&lt;/abbr&gt; with a wireless adapter:&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Plugin the ethenet cable into &lt;abbr title=&quot;raspberrypi&quot;&gt;rpi&lt;/abbr&gt;. Verify the wireless adapter is recognized by the kernel using &lt;code&gt;lsusb&lt;/code&gt;:
+  &lt;li&gt;
+    &lt;p&gt;Plugin the ethenet cable into &lt;abbr title=&quot;raspberrypi&quot;&gt;rpi&lt;/abbr&gt;. Verify the wireless adapter is recognized by the kernel using &lt;code class=&quot;highlighter-rouge&quot;&gt;lsusb&lt;/code&gt;:
      [root@alarmpi ~]# lsusb
      Bus 001 Device 002: ID 0424:9512 Standard Microsystems Corp. LAN9500 Ethernet 10/100 Adapter
      Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
      Bus 001 Device 003: ID 0424:ec00 Standard Microsystems Corp.
-     Bus 001 Device 004: ID 050d:945a Belkin Components F7D1101 v1 Basic Wireless Adapter [Realtek RTL8188SU]&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Update the system: &lt;code&gt;pacman -Syu&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;Install the base system and vim, &lt;a href=&quot;https://wiki.archlinux.org/index.php/Netctl&quot;&gt;netctl&lt;/a&gt; is the replcaement for the netcfg package: &lt;code&gt;packman -S base-devel vim netctl&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Following is just a replica of contents in arch wiki: &lt;code&gt;cp /etc/netctl/examples/wireless-wpa /etc/netctl&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Editing the netctl/wireless-wpa file: &lt;code&gt;vim /etc/netctl/wireless-wpa&lt;/code&gt;
-     ESSID='yourssid'
-     Key='yourpassword'&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Testing the connection: &lt;code&gt;netctl start wireless-wpa&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;See the logs: &lt;code&gt;netctl status wireless-wpa&lt;/code&gt;
+     Bus 001 Device 004: ID 050d:945a Belkin Components F7D1101 v1 Basic Wireless Adapter [Realtek RTL8188SU]&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Update the system: &lt;code class=&quot;highlighter-rouge&quot;&gt;pacman -Syu&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Install the base system and vim, &lt;a href=&quot;https://wiki.archlinux.org/index.php/Netctl&quot;&gt;netctl&lt;/a&gt; is the replcaement for the netcfg package: &lt;code class=&quot;highlighter-rouge&quot;&gt;packman -S base-devel vim netctl&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Following is just a replica of contents in arch wiki: &lt;code class=&quot;highlighter-rouge&quot;&gt;cp /etc/netctl/examples/wireless-wpa /etc/netctl&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Editing the netctl/wireless-wpa file: &lt;code class=&quot;highlighter-rouge&quot;&gt;vim /etc/netctl/wireless-wpa&lt;/code&gt;
+     ESSID=’yourssid’
+     Key=’yourpassword’&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Testing the connection: &lt;code class=&quot;highlighter-rouge&quot;&gt;netctl start wireless-wpa&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;See the logs: &lt;code class=&quot;highlighter-rouge&quot;&gt;netctl status wireless-wpa&lt;/code&gt;
      [root@alarmpi netctl]# netctl status wireless-wpa
      netctl@wireless\x2dwpa.service - Networking for netctl profile wireless-wpa
      Loaded: loaded (/usr/lib/systemd/system/netctl@.service; static)
@@ -529,12 +551,12 @@ ns = parser.parse_args()
      Docs: man:netctl.profile(5)
      Process: 716 ExecStart=/usr/lib/network/network start %I (code=exited, status=0/SUCCESS)
      CGroup: name=systemd:/system/netctl@.service/wireless\x2dwpa
-        ├─ 735 wpa_supplicant -B -P /run/wpa_supplicant_wlan0.pid -i wlan0...
-        └─1066 dhcpcd -qL -t 10 wlan0`&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Add entry into systemd: &lt;code&gt;netctl enable wireless-wpa&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;Unplug the cable and testing the wireless connection!!!&lt;/li&gt;
+        ├─ 735 wpa_supplicant -B -P /run/wpa_supplicant_wlan0.pid -i wlan0…
+        └─1066 dhcpcd -qL -t 10 wlan0`&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Add entry into systemd: &lt;code class=&quot;highlighter-rouge&quot;&gt;netctl enable wireless-wpa&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Unplug the cable and testing the wireless connection!!!&lt;/li&gt;
 &lt;/ol&gt;
-
 </content>
  </entry>
  
@@ -543,7 +565,7 @@ ns = parser.parse_args()
    <link href="http://weblog.donie.me/2013/03/31/fix.html"/>
    <updated>2013-03-31T00:00:00+08:00</updated>
    <id>http://weblog.donie.me/2013/03/31/fix</id>
-   <content type="html">&lt;p&gt;Worst month ever...&lt;/p&gt;
+   <content type="html">&lt;p&gt;Worst month ever…&lt;/p&gt;
 </content>
  </entry>
  
@@ -561,7 +583,7 @@ ns = parser.parse_args()
    <link href="http://weblog.donie.me/2013/01/31/getty_late.html"/>
    <updated>2013-01-31T00:00:00+08:00</updated>
    <id>http://weblog.donie.me/2013/01/31/getty_late</id>
-   <content type="html">&lt;p&gt;Gotta nothing to say, and it's too late to do so...&lt;/p&gt;
+   <content type="html">&lt;p&gt;Gotta nothing to say, and it’s too late to do so…&lt;/p&gt;
 </content>
  </entry>
  
@@ -579,12 +601,12 @@ ns = parser.parse_args()
    <link href="http://weblog.donie.me/2012/11/10/happy_b_day.html"/>
    <updated>2012-11-10T00:00:00+08:00</updated>
    <id>http://weblog.donie.me/2012/11/10/happy_b_day</id>
-   <content type="html">&lt;p&gt;&lt;audio controls preload=&quot;auto&quot; autobuffer loop&gt;
+   <content type="html">&lt;audio controls=&quot;&quot; preload=&quot;auto&quot; autobuffer=&quot;&quot; loop=&quot;&quot;&gt; 
   &lt;source src=&quot;/assets/25岁.mp3&quot; /&gt;
   &lt;source src=&quot;/assets/25岁.ogv&quot; /&gt;
   &lt;!-- no flash fallback though --&gt;
   Seems you are using outdated browser, or W3C is joking us around.
-&lt;/audio&gt;&lt;/p&gt;
+&lt;/audio&gt;
 </content>
  </entry>
  
@@ -621,7 +643,7 @@ ns = parser.parse_args()
 
 &lt;p&gt;&lt;em&gt;6&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;...&lt;/p&gt;
+&lt;p&gt;…&lt;/p&gt;
 </content>
  </entry>
  
@@ -630,7 +652,7 @@ ns = parser.parse_args()
    <link href="http://weblog.donie.me/2012/07/31/no_title_10.html"/>
    <updated>2012-07-31T00:00:00+08:00</updated>
    <id>http://weblog.donie.me/2012/07/31/no_title_10</id>
-   <content type="html">&lt;p&gt;Hard to put into words...&lt;/p&gt;
+   <content type="html">&lt;p&gt;Hard to put into words…&lt;/p&gt;
 </content>
  </entry>
  
@@ -733,7 +755,7 @@ ns = parser.parse_args()
    <id>http://weblog.donie.me/2011/09/16/learn_ruby_003</id>
    <content type="html">&lt;p&gt;After the using rb file to import the posts from Textpattern, which I find a little bit tricky is that all posts&amp;#8217; detailed post time kinda lost, like original post time is &amp;#8220;Mar 15th, 2011 21:59:00&amp;#8221;, only the date were available exists, but the detail hour/minute got lost, kinda pity.&lt;/p&gt;
 &lt;p&gt;And for Jekyll part, I personally cloned this &lt;a href=&quot;http://mojombo.github.com&quot;&gt;repository&lt;/a&gt; , it definitely meet regular requirement for blogging. But if the pagination is a demand, add this line in _config.yml&lt;/p&gt;
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;paginate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;&lt;p&gt;3 is the number of posts for each page. More information could be grab from &lt;a href=&quot;https://github.com/mojombo/jekyll/wiki/Pagination&quot;&gt;here&lt;/a&gt; . &lt;em&gt;See? It is in the wiki! But you can&amp;#8217;t find it on the wiki&amp;#8217;s home page.&lt;/em&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;ss&quot;&gt;paginate: &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;&lt;p&gt;3 is the number of posts for each page. More information could be grab from &lt;a href=&quot;https://github.com/mojombo/jekyll/wiki/Pagination&quot;&gt;here&lt;/a&gt; . &lt;em&gt;See? It is in the wiki! But you can&amp;#8217;t find it on the wiki&amp;#8217;s home page.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;On jekyll&amp;#8217;s page structure, basically, it start from the index.html in the root container, and uses the file _layout folder. Extremely like what I have in Textpattern :)&lt;/p&gt;
 &lt;p&gt;And for code highlighting, pygments is great, and also which is part of github&amp;#8217;s default setting(github uses jekyll  --pygments --safe), you may need put pygments: true in _config.xml. &lt;em&gt;Pygments does a bit slow&lt;/em&gt;&lt;/p&gt;
 &lt;blockquote&gt;
@@ -749,15 +771,15 @@ ns = parser.parse_args()
    <content type="html">&lt;p&gt;As may noticed, this blog was moved to full static pages, thanks to &lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;Jekyll&lt;/a&gt; , the fantastic page generator.&lt;/p&gt;
 &lt;p&gt;As well, this procedure also evolves ruby stuffs, which cost about half and day for a newbie like me to sort all these things out. Trying to list all the problems I met below, 所谓以儆效尤啊, lol:&lt;/p&gt;
 &lt;p&gt;rvm things, so following the topic in last article, version thing does cost a lot of time to deal with. At first, I would like to think that put&lt;/p&gt;
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span&gt;&lt;/span&gt;rvm list&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;&lt;p&gt;should list all ruby versions in the system, also include the version that come that from the system. But actually it&amp;#8217;s &lt;span class=&quot;caps&quot;&gt;NOT&lt;/span&gt;. so use this:&lt;/p&gt;
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span&gt;&lt;/span&gt;rvm system
-ruby -v 
-ruby &lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;.8.7 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2010&lt;/span&gt;-01-10 patchlevel &lt;span class=&quot;m&quot;&gt;249&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;universal-darwin11.0&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;&lt;p&gt;Voila.&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;rvm list&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;&lt;p&gt;should list all ruby versions in the system, also include the version that come that from the system. But actually it&amp;#8217;s &lt;span class=&quot;caps&quot;&gt;NOT&lt;/span&gt;. so use this:&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;rvm system
+ruby &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt; 
+ruby 1.8.7 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;2010-01-10 patchlevel 249&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;universal-darwin11.0]&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;&lt;p&gt;Voila.&lt;/p&gt;
 &lt;p&gt;For import textpattern blog posts to Jekyll, this part is pretty funny though. First, you&amp;#8217;ll need to copy the import utility(textpattern.rb) to local disk, and use the ruby file to import all you posts. Grab the open_gem to meet the prerequisite:&lt;/p&gt;
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span&gt;&lt;/span&gt;gem install open_gem&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;&lt;p&gt;than&lt;/p&gt;
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span&gt;&lt;/span&gt;gem open jekyll&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;&lt;p&gt;On my laptop, this will let vim to open the package structure, open that file and save it into wherever you want. then import data from txp database&lt;/p&gt;
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ruby&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;r&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;./_import/textpattern.rb&amp;#39;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;e&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;Jekyll::TextPattern.process(&amp;quot;database_name&amp;quot;, &amp;quot;username&amp;quot;, &amp;quot;password&amp;quot;, &amp;quot;hostname&amp;quot;)&amp;#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;&lt;p&gt;This file&amp;#8217;s operation could be tricky, it&amp;#8217;s database name was hard coded as &amp;#8220;textpattern&amp;#8221;, in my previous environment, the database name is txp_textpattern, so be aware of that. And also you may need add a new line&lt;/p&gt;
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;kp&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;yaml&amp;#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;&lt;p&gt;in the rb file, cause I met this problem.&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;gem &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;open_gem&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;&lt;p&gt;than&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;gem open jekyll&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;&lt;p&gt;On my laptop, this will let vim to open the package structure, open that file and save it into wherever you want. then import data from txp database&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;ruby&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;r&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'./_import/textpattern.rb'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;e&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'Jekyll::TextPattern.process(&quot;database_name&quot;, &quot;username&quot;, &quot;password&quot;, &quot;hostname&quot;)'&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;&lt;p&gt;This file&amp;#8217;s operation could be tricky, it&amp;#8217;s database name was hard coded as &amp;#8220;textpattern&amp;#8221;, in my previous environment, the database name is txp_textpattern, so be aware of that. And also you may need add a new line&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;kp&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'yaml'&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;&lt;p&gt;in the rb file, cause I met this problem.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&lt;span class=&quot;caps&quot;&gt;TBD&lt;/span&gt;.&lt;/em&gt;&lt;/p&gt;</content>
  </entry>
  
@@ -1269,5 +1291,5 @@ bq.&lt;/p&gt;</content>
 &lt;p&gt;低调而又底气十足的说一声： &lt;em&gt;Hello world!&lt;/em&gt;&lt;/p&gt;</content>
  </entry>
  
- 
+
 </feed>
