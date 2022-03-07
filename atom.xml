@@ -4,7 +4,7 @@
  <title>donie's notes</title>
  <link href="http://weblog.donie.me/atom.xml" rel="self"/>
  <link href="http://weblog.donie.me/"/>
- <updated>2020-05-05T23:10:12+08:00</updated>
+ <updated>2022-03-07T16:24:54+08:00</updated>
  <id>http://weblog.donie.me/</id>
  <author>
    <name>Li Sun</name>
@@ -350,9 +350,9 @@
    <link href="http://weblog.donie.me/2014/06/01/vimwiki_markdown.html"/>
    <updated>2014-06-01T00:00:00+08:00</updated>
    <id>http://weblog.donie.me/2014/06/01/vimwiki_markdown</id>
-   <content type="html">&lt;p&gt;In the vim list section of the &lt;code class=&quot;highlighter-rouge&quot;&gt;.vimrc&lt;/code&gt;file, include options:&lt;/p&gt;
+   <content type="html">&lt;p&gt;In the vim list section of the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.vimrc&lt;/code&gt;file, include options:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;let g:vimwiki_list = [{&quot;path&quot;: ‘your_wiki_place”, &quot;path_html&quot;: ‘wiki_html_location’, &quot;syntax&quot;: 'markdown', &quot;ext&quot;: '.mkd', &quot;css_file&quot;: ‘location of designated css’, &quot;custom_wiki2html&quot;: ‘link to the custom converter, i.e. misaka_md2html.py', &quot;auto_export&quot;: 1}]
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;let g:vimwiki_list = [{&quot;path&quot;: ‘your_wiki_place”, &quot;path_html&quot;: ‘wiki_html_location’, &quot;syntax&quot;: &apos;markdown&apos;, &quot;ext&quot;: &apos;.mkd&apos;, &quot;css_file&quot;: ‘location of designated css’, &quot;custom_wiki2html&quot;: ‘link to the custom converter, i.e. misaka_md2html.py&apos;, &quot;auto_export&quot;: 1}]
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Break down to the details:&lt;/p&gt;
@@ -361,7 +361,7 @@
   &lt;li&gt;&lt;em&gt;path&lt;/em&gt;: the original wiki files&lt;/li&gt;
   &lt;li&gt;&lt;em&gt;path_html&lt;/em&gt;: the output html location&lt;/li&gt;
   &lt;li&gt;&lt;em&gt;syntax&lt;/em&gt;: set as markdown&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;ext&lt;/em&gt;: whatever needed, you can use &lt;code class=&quot;highlighter-rouge&quot;&gt;.md&lt;/code&gt; or something else&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;ext&lt;/em&gt;: whatever needed, you can use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.md&lt;/code&gt; or something else&lt;/li&gt;
   &lt;li&gt;&lt;em&gt;custom_wiki2html&lt;/em&gt;: the converter executable location, i.e. the md2html script from &lt;a href=&quot;https://github.com/jason6/vimwiki_md2html/blob/master/misaka_md2html.py&quot;&gt;Github&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;em&gt;auto_export&lt;/em&gt;: you may want auto export enabled&lt;/li&gt;
 &lt;/ul&gt;
@@ -396,7 +396,7 @@
 
 &lt;p&gt;The current python script may not able to accept these options as they only accepting staring 7 arguments, so far I add the handler into python script as these to make script working:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;parser.add_argument(&quot;cssfile&quot;, help=&quot;The css file (with absolute path) to &quot;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;parser.add_argument(&quot;cssfile&quot;, help=&quot;The css file (with absolute path) to &quot;
         &quot;be referenced in the resulting html file.&quot;)
 _# modification start here_
 parser.add_argument(&quot;template_path&quot;, help=&quot;The css file (with absolute path) to &quot;
@@ -546,24 +546,24 @@ ns = parser.parse_args()
 
 &lt;ol&gt;
   &lt;li&gt;
-    &lt;p&gt;Plugin the ethenet cable into &lt;abbr title=&quot;raspberrypi&quot;&gt;rpi&lt;/abbr&gt;. Verify the wireless adapter is recognized by the kernel using &lt;code class=&quot;highlighter-rouge&quot;&gt;lsusb&lt;/code&gt;:
+    &lt;p&gt;Plugin the ethenet cable into &lt;abbr title=&quot;raspberrypi&quot;&gt;rpi&lt;/abbr&gt;. Verify the wireless adapter is recognized by the kernel using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;lsusb&lt;/code&gt;:
      [root@alarmpi ~]# lsusb
      Bus 001 Device 002: ID 0424:9512 Standard Microsystems Corp. LAN9500 Ethernet 10/100 Adapter
      Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
      Bus 001 Device 003: ID 0424:ec00 Standard Microsystems Corp.
      Bus 001 Device 004: ID 050d:945a Belkin Components F7D1101 v1 Basic Wireless Adapter [Realtek RTL8188SU]&lt;/p&gt;
   &lt;/li&gt;
-  &lt;li&gt;Update the system: &lt;code class=&quot;highlighter-rouge&quot;&gt;pacman -Syu&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Install the base system and vim, &lt;a href=&quot;https://wiki.archlinux.org/index.php/Netctl&quot;&gt;netctl&lt;/a&gt; is the replcaement for the netcfg package: &lt;code class=&quot;highlighter-rouge&quot;&gt;packman -S base-devel vim netctl&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Following is just a replica of contents in arch wiki: &lt;code class=&quot;highlighter-rouge&quot;&gt;cp /etc/netctl/examples/wireless-wpa /etc/netctl&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Update the system: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pacman -Syu&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Install the base system and vim, &lt;a href=&quot;https://wiki.archlinux.org/index.php/Netctl&quot;&gt;netctl&lt;/a&gt; is the replcaement for the netcfg package: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;packman -S base-devel vim netctl&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Following is just a replica of contents in arch wiki: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cp /etc/netctl/examples/wireless-wpa /etc/netctl&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Editing the netctl/wireless-wpa file: &lt;code class=&quot;highlighter-rouge&quot;&gt;vim /etc/netctl/wireless-wpa&lt;/code&gt;
+    &lt;p&gt;Editing the netctl/wireless-wpa file: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;vim /etc/netctl/wireless-wpa&lt;/code&gt;
      ESSID=’yourssid’
      Key=’yourpassword’&lt;/p&gt;
   &lt;/li&gt;
-  &lt;li&gt;Testing the connection: &lt;code class=&quot;highlighter-rouge&quot;&gt;netctl start wireless-wpa&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Testing the connection: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;netctl start wireless-wpa&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;See the logs: &lt;code class=&quot;highlighter-rouge&quot;&gt;netctl status wireless-wpa&lt;/code&gt;
+    &lt;p&gt;See the logs: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;netctl status wireless-wpa&lt;/code&gt;
      [root@alarmpi netctl]# netctl status wireless-wpa
      netctl@wireless\x2dwpa.service - Networking for netctl profile wireless-wpa
      Loaded: loaded (/usr/lib/systemd/system/netctl@.service; static)
@@ -574,7 +574,7 @@ ns = parser.parse_args()
         ├─ 735 wpa_supplicant -B -P /run/wpa_supplicant_wlan0.pid -i wlan0…
         └─1066 dhcpcd -qL -t 10 wlan0`&lt;/p&gt;
   &lt;/li&gt;
-  &lt;li&gt;Add entry into systemd: &lt;code class=&quot;highlighter-rouge&quot;&gt;netctl enable wireless-wpa&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Add entry into systemd: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;netctl enable wireless-wpa&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;Unplug the cable and testing the wireless connection!!!&lt;/li&gt;
 &lt;/ol&gt;
 </content>
@@ -681,7 +681,7 @@ ns = parser.parse_args()
    <link href="http://weblog.donie.me/2012/06/30/no_title_9.html"/>
    <updated>2012-06-30T00:00:00+08:00</updated>
    <id>http://weblog.donie.me/2012/06/30/no_title_9</id>
-   <content type="html">&lt;p&gt;&lt;!--Fuck it, I should've blogging as I'm willing to , but not for self-discipline way --&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;!--Fuck it, I should&apos;ve blogging as I&apos;m willing to , but not for self-discipline way --&gt;&lt;/p&gt;
 &lt;p&gt;Github watched repository 多的都在积灰了，先去整理整理吧。。。&lt;/p&gt;</content>
  </entry>
  
@@ -798,8 +798,8 @@ ruby 1.8.7 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;2010-01-10 patchlevel 2
 &lt;p&gt;For import textpattern blog posts to Jekyll, this part is pretty funny though. First, you&amp;#8217;ll need to copy the import utility(textpattern.rb) to local disk, and use the ruby file to import all you posts. Grab the open_gem to meet the prerequisite:&lt;/p&gt;
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;gem &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;open_gem&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;&lt;p&gt;than&lt;/p&gt;
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;gem open jekyll&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;&lt;p&gt;On my laptop, this will let vim to open the package structure, open that file and save it into wherever you want. then import data from txp database&lt;/p&gt;
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;ruby&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;r&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'./_import/textpattern.rb'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;e&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'Jekyll::TextPattern.process(&quot;database_name&quot;, &quot;username&quot;, &quot;password&quot;, &quot;hostname&quot;)'&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;&lt;p&gt;This file&amp;#8217;s operation could be tricky, it&amp;#8217;s database name was hard coded as &amp;#8220;textpattern&amp;#8221;, in my previous environment, the database name is txp_textpattern, so be aware of that. And also you may need add a new line&lt;/p&gt;
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;kp&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'yaml'&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;&lt;p&gt;in the rb file, cause I met this problem.&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;ruby&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;r&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;./_import/textpattern.rb&apos;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;e&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;Jekyll::TextPattern.process(&quot;database_name&quot;, &quot;username&quot;, &quot;password&quot;, &quot;hostname&quot;)&apos;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;&lt;p&gt;This file&amp;#8217;s operation could be tricky, it&amp;#8217;s database name was hard coded as &amp;#8220;textpattern&amp;#8221;, in my previous environment, the database name is txp_textpattern, so be aware of that. And also you may need add a new line&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;kp&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;yaml&apos;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;&lt;p&gt;in the rb file, cause I met this problem.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&lt;span class=&quot;caps&quot;&gt;TBD&lt;/span&gt;.&lt;/em&gt;&lt;/p&gt;</content>
  </entry>
  
@@ -810,10 +810,10 @@ ruby 1.8.7 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;2010-01-10 patchlevel 2
    <id>http://weblog.donie.me/2011/09/10/learn_ruby_001</id>
    <content type="html">&lt;p&gt;So, start learning ruby, maybe more proper to use RoR(definitely sure that, &lt;a href=&quot;http://en.wikipedia.org/wiki/David_Heinemeier_Hansson&quot;&gt;Hansson&lt;/a&gt; or someone else get the abbreviation inspiration from lol, or maybe not).&lt;br /&gt;
 First day, meet something frustrating, following logs when trying to access the welcome aboard page:&lt;/p&gt;
-&lt;pre&gt;Please install the sqlite3 adapter: `gem install activerecord-sqlite3-adapter` (can't activate sqlite3 (~&amp;gt; 1.3.4), already activated sqlite3-1.3.3. Make sure all dependencies are added to Gemfile.)
-/Users/[user]/.rvm/gems/ruby-1.9.2-p290@rails3/gems/activerecord-3.1.0/lib/active_record/connection_adapters/abstract/connection_specification.rb:71:in `rescue in establish_connection'&lt;/pre&gt;
+&lt;pre&gt;Please install the sqlite3 adapter: `gem install activerecord-sqlite3-adapter` (can&apos;t activate sqlite3 (~&amp;gt; 1.3.4), already activated sqlite3-1.3.3. Make sure all dependencies are added to Gemfile.)
+/Users/[user]/.rvm/gems/ruby-1.9.2-p290@rails3/gems/activerecord-3.1.0/lib/active_record/connection_adapters/abstract/connection_specification.rb:71:in `rescue in establish_connection&apos;&lt;/pre&gt;
 &lt;p&gt;Googled this message around (also on stackoverflow, lol), no findings. At last, changing the sqlite3 gem version to 1.3.4 actually did the trick, which original content generated by rails 3.1.0 is:&lt;/p&gt;
-&lt;pre&gt;gem 'sqlite3', '1.3.3', :group =&amp;gt; :development&lt;/pre&gt;
+&lt;pre&gt;gem &apos;sqlite3&apos;, &apos;1.3.3&apos;, :group =&amp;gt; :development&lt;/pre&gt;
 &lt;p&gt;After playing with this for some time, off the top of my head: &lt;span class=&quot;caps&quot;&gt;WTF&lt;/span&gt;, don&amp;#8217;t they guys  find that the whole version things does messed people around? Hope will learn the story behind this in the future.&lt;/p&gt;</content>
  </entry>
  
@@ -823,7 +823,7 @@ First day, meet something frustrating, following logs when trying to access the 
    <updated>2011-08-31T00:00:00+08:00</updated>
    <id>http://weblog.donie.me/2011/08/31/the_talk</id>
    <content type="html">&lt;p&gt;写这篇之前我一直再找个先前再推特上看到的纯文字界面编辑器，有时候完全是为工具所困，没有类打字机环境又不会死咯。如果有人指着我鼻头骂：你完全是为了显摆而显摆，哈，没错，that&amp;#8217;s pretty much all of me。&lt;br /&gt;
-直到看到 &lt;a href='http://neunhundertneunundneunzig.blogspot.com/2011/08/plan066.html'&gt;这篇 &lt;/a&gt; 之前，我还是想抱着无聊的态度来继续抱怨两句。在 tw 待了段时间之后，除了感受天朝文字历史之悠长两岸各圈之一般黑外，就是身心的无以为继。 &lt;em&gt;呜，这几个月脑袋就没有这么高速运转过。&lt;/em&gt; 前段时间话题很多的 crush notifier，我很想坦白的对一个人说，俺喜欢你。为什么 TM 的要通过这中介，为什么要在 facebook 上 in a relationship with someone。(虽然在社交网络里这段子确实挺有意思）。 &lt;br /&gt;
+直到看到 &lt;a href=&apos;http://neunhundertneunundneunzig.blogspot.com/2011/08/plan066.html&apos;&gt;这篇 &lt;/a&gt; 之前，我还是想抱着无聊的态度来继续抱怨两句。在 tw 待了段时间之后，除了感受天朝文字历史之悠长两岸各圈之一般黑外，就是身心的无以为继。 &lt;em&gt;呜，这几个月脑袋就没有这么高速运转过。&lt;/em&gt; 前段时间话题很多的 crush notifier，我很想坦白的对一个人说，俺喜欢你。为什么 TM 的要通过这中介，为什么要在 facebook 上 in a relationship with someone。(虽然在社交网络里这段子确实挺有意思）。 &lt;br /&gt;
 现在的媒体都是赶着时间奔向生命最终点，没有那个空闲弯腰喘息，八卦娱乐恶搞煽情玩清新，才没那个空间让你思考，瞧，这博客就用了多少重复的词句。&lt;/p&gt;
 &lt;p&gt;陷在虚拟世界的人能凑到窗边呼吸下外面的空气吗，哪怕是汽车尾气，说你呢，魂淡博主&lt;/p&gt;</content>
  </entry>
@@ -844,7 +844,7 @@ First day, meet something frustrating, following logs when trying to access the 
    <id>http://weblog.donie.me/2011/06/30/at_night</id>
    <content type="html">&lt;p&gt;Good tight, sleep night.&lt;br /&gt;
 We&amp;#8217;ll talk tomorrow.&lt;/p&gt;
-&lt;p&gt;&lt;a href='http://farm4.static.flickr.com/3566/5845472449_154e2257d8_b_d.jpg' title='beach'&gt;&lt;img alt='click to enlarge' src='http://farm4.static.flickr.com/3566/5845472449_154e2257d8_d.jpg' /&gt;&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;&lt;a href=&apos;http://farm4.static.flickr.com/3566/5845472449_154e2257d8_b_d.jpg&apos; title=&apos;beach&apos;&gt;&lt;img alt=&apos;click to enlarge&apos; src=&apos;http://farm4.static.flickr.com/3566/5845472449_154e2257d8_d.jpg&apos; /&gt;&lt;/a&gt;&lt;/p&gt;</content>
  </entry>
  
  <entry>
@@ -854,7 +854,7 @@ We&amp;#8217;ll talk tomorrow.&lt;/p&gt;
    <id>http://weblog.donie.me/2011/05/24/feel_sober_only_this_moment</id>
    <content type="html">&lt;p&gt;老妈说：你怎么老是这么邋遢，也该是整理整理交女朋友的时候了。 虽说作为一个死宅，但对满大街的女生说不感兴趣那是自欺欺人，不过孔子有说过：人看得多了，才觉得那什么的可爱。No offense， 按照每个人印象的标准来选择生活，那得有多累啊，面对这挺浮躁的世界我确实不知道该怎么做选择了。我又不怀好意的想到了开复老师的 follow ur heart，话说开复老师赶快写封信给我啊，帮我答疑解惑啊。。。&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;其实是看到 Heidi 的&lt;a href='http://lostheidi.com/understanding-in-detail/'&gt;这篇&lt;/a&gt;感到共鸣：我×××就是文章说的这种人啊，说白了就是纠结于各种细节，喜欢埋各种彩蛋，总希望某一天什么人能够发现，大家相视一笑就够了。&lt;/p&gt;
+&lt;p&gt;其实是看到 Heidi 的&lt;a href=&apos;http://lostheidi.com/understanding-in-detail/&apos;&gt;这篇&lt;/a&gt;感到共鸣：我×××就是文章说的这种人啊，说白了就是纠结于各种细节，喜欢埋各种彩蛋，总希望某一天什么人能够发现，大家相视一笑就够了。&lt;/p&gt;
 &lt;/blockquote&gt;</content>
  </entry>
  
@@ -880,7 +880,7 @@ We&amp;#8217;ll talk tomorrow.&lt;/p&gt;
    <link href="http://weblog.donie.me/2011/02/27/no_title_6.html"/>
    <updated>2011-02-27T00:00:00+08:00</updated>
    <id>http://weblog.donie.me/2011/02/27/no_title_6</id>
-   <content type="html">&lt;p&gt;yyets 的&lt;a href='ed2k://|file|%E5%A4%96%E5%8C%85%E5%85%AC%E5%8F%B8.Outsourced.S01E11.Chi_Eng.HDTVrip.720X396-YYeTs%E4%BA%BA%E4%BA%BA%E5%BD%B1%E8%A7%86.rmvb|124770743|E430E79ADD70C0A4A9B3EB0232CCBF0C|h=3GRVRYJ5DNJRFWXQ4SHXZO4R6Y2KZ3RT|/'&gt;翻译&lt;/a&gt;太出彩了，推荐。&lt;/p&gt;
+   <content type="html">&lt;p&gt;yyets 的&lt;a href=&apos;ed2k://|file|%E5%A4%96%E5%8C%85%E5%85%AC%E5%8F%B8.Outsourced.S01E11.Chi_Eng.HDTVrip.720X396-YYeTs%E4%BA%BA%E4%BA%BA%E5%BD%B1%E8%A7%86.rmvb|124770743|E430E79ADD70C0A4A9B3EB0232CCBF0C|h=3GRVRYJ5DNJRFWXQ4SHXZO4R6Y2KZ3RT|/&apos;&gt;翻译&lt;/a&gt;太出彩了，推荐。&lt;/p&gt;
 &lt;p&gt;Yes! youtube blocked it! ↑↑↑ &lt;br /&gt;
 &lt;del&gt;http://www.youtube.com/watch?v=hqKlpPjVA4I&lt;/del&gt;&lt;/p&gt;</content>
  </entry>
@@ -890,12 +890,12 @@ We&amp;#8217;ll talk tomorrow.&lt;/p&gt;
    <link href="http://weblog.donie.me/2011/01/24/fix_the_damn_bug.html"/>
    <updated>2011-01-24T00:00:00+08:00</updated>
    <id>http://weblog.donie.me/2011/01/24/fix_the_damn_bug</id>
-   <content type="html">&lt;p&gt;&lt;a href='http://farm5.static.flickr.com/4111/4839734848_166a0fc04b_o.jpg' title='Watch the cloud'&gt;&lt;img alt='click to enlarge' src='/images/cloud.jpg' /&gt;&lt;/a&gt;&lt;/p&gt;</content>
+   <content type="html">&lt;p&gt;&lt;a href=&apos;http://farm5.static.flickr.com/4111/4839734848_166a0fc04b_o.jpg&apos; title=&apos;Watch the cloud&apos;&gt;&lt;img alt=&apos;click to enlarge&apos; src=&apos;/images/cloud.jpg&apos; /&gt;&lt;/a&gt;&lt;/p&gt;</content>
  </entry>
  
  <entry>
    <title>bad old time</title>
-   <link href="http://weblog.donie.me/2011/01/24/all_this_old_hard_c-tranlationfromGoogle.html"/>
+   <link href="http://weblog.donie.me/2011/01/24/all_this_old_hard_c%CC%A7tranlationfromGoogle.html"/>
    <updated>2011-01-24T00:00:00+08:00</updated>
    <id>http://weblog.donie.me/2011/01/24/all_this_old_hard_çtranlationfromGoogle</id>
    <content type="html">&lt;p&gt;怀旧风吹来： 最近在重新翻收藏夹，话说应该是从 firefox1.* 的时期过来的了。信不过那些检查死链的 addon，每一个链接都一一点开来，不行就重新 Google 一下 title，看是不是换域名了。我骨子里的 &lt;del&gt;xx情调&lt;/del&gt;  告诉我是时候感叹一下物是人非了。几年前收藏的尽是些稀奇古怪的论坛：围棋、游戏、flash、机器人、DIY；现在到尽是些 XX 入门，30天 &lt;span class=&quot;caps&quot;&gt;XXX&lt;/span&gt; 精通的，如果不说中间那些词（python, ror, etc……），说不定还以为我是搞传销的。！现在满世界都是在玩速成、玩突进，一本教材不是 in a nutshell，就不能所谓为教材，只能叫废话百科。还真是应了那句：飚着速度，飚着时间，飚向生命最终点。 &lt;br /&gt;
@@ -912,7 +912,7 @@ We&amp;#8217;ll talk tomorrow.&lt;/p&gt;
    <updated>2010-12-27T00:00:00+08:00</updated>
    <id>http://weblog.donie.me/2010/12/27/2010?</id>
    <content type="html">&lt;p&gt;越来越烂了，是不是该做年终总结的时候了？&lt;br /&gt;
-最近看到网上评出年度十大烂书，发现以前还很推崇的孔庆东名列其中（完全是因为那本《47 楼 207》）。是不是因为&lt;a href='http://v.news.163.com/video/2010/11/H/Q/V6LAUHGHQ.html'&gt;这个&lt;/a&gt;？本来是用来逃避生活的手段，现在网络对现实生活的影响倒真是越来越大了，&lt;br /&gt;
+最近看到网上评出年度十大烂书，发现以前还很推崇的孔庆东名列其中（完全是因为那本《47 楼 207》）。是不是因为&lt;a href=&apos;http://v.news.163.com/video/2010/11/H/Q/V6LAUHGHQ.html&apos;&gt;这个&lt;/a&gt;？本来是用来逃避生活的手段，现在网络对现实生活的影响倒真是越来越大了，&lt;br /&gt;
 10 月份的时候参加了朋友的婚礼，之前的确没有参加过这种比较『正式』的仪式。新郎新娘在互道誓言，主持人在一旁不停的喊话：只要 998，只要 998！（哦，跑题了，不过得说我的感觉就是这样。）在交换戒指时，我脑袋里反覆的却是另外一段旋律：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;飞过那片茫茫人海 下个路口 直走或转弯&lt;br /&gt;
@@ -929,7 +929,7 @@ We&amp;#8217;ll talk tomorrow.&lt;/p&gt;
    <updated>2010-11-14T00:00:00+08:00</updated>
    <id>http://weblog.donie.me/2010/11/14/end_of_the_perplex</id>
    <content type="html">&lt;p&gt;再一直这样迷惑下去也不对，所以我决定骑出这个自强隧道之前，我要把我的迷惑通通都结束掉，就是我接下来的迷惑只能有一个自强隧道那么长。&lt;/p&gt;
-&lt;p&gt;&lt;img alt='perplex' src='/images/perplexed.jpg' /&gt;&lt;/p&gt;</content>
+&lt;p&gt;&lt;img alt=&apos;perplex&apos; src=&apos;/images/perplexed.jpg&apos; /&gt;&lt;/p&gt;</content>
  </entry>
  
  <entry>
@@ -952,7 +952,7 @@ We&amp;#8217;ll talk tomorrow.&lt;/p&gt;
    <updated>2010-09-24T00:00:00+08:00</updated>
    <id>http://weblog.donie.me/2010/09/24/take-a-leap-of-faith</id>
    <content type="html">&lt;!--“天哥”离职去澳洲了，祝福她。--&gt;
-最近真是狂迷五月天，好吧，我承认我相当的不成熟：上下班的时候听着五个人的今夜好不好，学到了很多冷笑话，听来了很多好音乐。跟着那笑话在路上、在车上、在床上傻呵呵的笑；很爽。在豆瓣看到这个&lt;a href='http://music.douban.com/review/3311957/'&gt;帖子&lt;/a&gt;，觉得很多的事情没有想象的那么复杂，没有那么的绝对。虽然还是那么偏执，那么&lt;a href='http://www.cantonese.sheik.co.uk/phorum/read.php?3,55749' rel='external'&gt;ㄍ一ㄣ&lt;/a&gt;
+最近真是狂迷五月天，好吧，我承认我相当的不成熟：上下班的时候听着五个人的今夜好不好，学到了很多冷笑话，听来了很多好音乐。跟着那笑话在路上、在车上、在床上傻呵呵的笑；很爽。在豆瓣看到这个&lt;a href=&apos;http://music.douban.com/review/3311957/&apos;&gt;帖子&lt;/a&gt;，觉得很多的事情没有想象的那么复杂，没有那么的绝对。虽然还是那么偏执，那么&lt;a href=&apos;http://www.cantonese.sheik.co.uk/phorum/read.php?3,55749&apos; rel=&apos;external&apos;&gt;ㄍ一ㄣ&lt;/a&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;整天泡在网上盯着校内盯着各种无聊视频写着各种无聊的牢骚搞得自己经历了很多很世故的样子，或许我们只是害怕被人揭穿，害怕过早地被社会伤害。&lt;/p&gt;
@@ -1022,8 +1022,8 @@ We&amp;#8217;ll talk tomorrow.&lt;/p&gt;
 &lt;a href=&quot;http://mysite.verizon.net/astronaut/vim/index.html#NETRW&quot; rel=&quot;external&quot;&gt;http://mysite.verizon.net/astronaut/vim/index.html#&lt;span class=&quot;caps&quot;&gt;NETRW&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;在 vimrc 中加上这些：&lt;/p&gt;
 &lt;pre&gt;let g:netrw_cygwin = 0
-let g:netrw_scp_cmd = “C:\\path\\to\\putty's\\scp\\pscp.exe -pw yourpasswd”
-let g:netrw_sftp_cmd = “C:\\path\\to\\putty's\\sftp\\pftp.exe -pw yourpasswd”
+let g:netrw_scp_cmd = “C:\\path\\to\\putty&apos;s\\scp\\pscp.exe -pw yourpasswd”
+let g:netrw_sftp_cmd = “C:\\path\\to\\putty&apos;s\\sftp\\pftp.exe -pw yourpasswd”
 let g:netrw_list_cmd = “plink username@hostname -pw yourpasswd ls -Fa&lt;/pre&gt;
 &lt;pre&gt;:e scp://user@hostname//path/&lt;/pre&gt;
 &lt;p&gt;path 之前必须多加上一个 /&lt;/p&gt;
@@ -1102,7 +1102,7 @@ Firefox4.0 beta2 pre 感觉又像回到等待 3.0 release 的时期了，天天 
    <link href="http://weblog.donie.me/2010/06/25/firefox_I.html"/>
    <updated>2010-06-25T00:00:00+08:00</updated>
    <id>http://weblog.donie.me/2010/06/25/firefox_I</id>
-   <content type="html">&lt;p&gt;Latest nightly build (Mozilla/5.0 (Windows; U; Windows NT 6.1; WOW64; en-US; rv:1.9.3a6pre) Gecko/20100625 Minefield/3.7a6pre)，当然只在标题栏塞满的情况下：&lt;a href='/images/auto_width_tab_minefield.png' title='Minefield auto width tab' &gt;&lt;img alt='click to enlarge, maybe' src='/images/auto_width_tab_minefield.png' /&gt;&lt;/a&gt;&lt;/p&gt;</content>
+   <content type="html">&lt;p&gt;Latest nightly build (Mozilla/5.0 (Windows; U; Windows NT 6.1; WOW64; en-US; rv:1.9.3a6pre) Gecko/20100625 Minefield/3.7a6pre)，当然只在标题栏塞满的情况下：&lt;a href=&apos;/images/auto_width_tab_minefield.png&apos; title=&apos;Minefield auto width tab&apos; &gt;&lt;img alt=&apos;click to enlarge, maybe&apos; src=&apos;/images/auto_width_tab_minefield.png&apos; /&gt;&lt;/a&gt;&lt;/p&gt;</content>
  </entry>
  
  <entry>
@@ -1110,8 +1110,8 @@ Firefox4.0 beta2 pre 感觉又像回到等待 3.0 release 的时期了，天天 
    <link href="http://weblog.donie.me/2010/06/23/LX3_and_M-241A.html"/>
    <updated>2010-06-23T00:00:00+08:00</updated>
    <id>http://weblog.donie.me/2010/06/23/LX3_and_M-241A</id>
-   <content type="html">&lt;p&gt;&lt;a href='http://www.dpreview.com/reviews/panasonicdmclx3/' rel='external'&gt;LX3&lt;/a&gt; 和 &lt;a href='http://www.holux.com/JCore/en/products/products_content.jsp?pno=341' rel='external'&gt;M-241a&lt;/a&gt; 到了，也算更新换代了。Move up，扫街去。&lt;br /&gt;
-&lt;a href='http://farm2.static.flickr.com/1106/4727074217_cde5955258_b_d.jpg' title='Holux m241a' /&gt;&lt;img alt='click to enlarge' src='/images/m241a_zoom_out.jpg' /&gt;&lt;/a&gt;&lt;/p&gt;</content>
+   <content type="html">&lt;p&gt;&lt;a href=&apos;http://www.dpreview.com/reviews/panasonicdmclx3/&apos; rel=&apos;external&apos;&gt;LX3&lt;/a&gt; 和 &lt;a href=&apos;http://www.holux.com/JCore/en/products/products_content.jsp?pno=341&apos; rel=&apos;external&apos;&gt;M-241a&lt;/a&gt; 到了，也算更新换代了。Move up，扫街去。&lt;br /&gt;
+&lt;a href=&apos;http://farm2.static.flickr.com/1106/4727074217_cde5955258_b_d.jpg&apos; title=&apos;Holux m241a&apos; /&gt;&lt;img alt=&apos;click to enlarge&apos; src=&apos;/images/m241a_zoom_out.jpg&apos; /&gt;&lt;/a&gt;&lt;/p&gt;</content>
  </entry>
  
  <entry>

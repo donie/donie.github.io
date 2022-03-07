@@ -23,24 +23,24 @@
 
 <ol>
   <li>
-    <p>Plugin the ethenet cable into <abbr title="raspberrypi">rpi</abbr>. Verify the wireless adapter is recognized by the kernel using <code class="highlighter-rouge">lsusb</code>:
+    <p>Plugin the ethenet cable into <abbr title="raspberrypi">rpi</abbr>. Verify the wireless adapter is recognized by the kernel using <code class="language-plaintext highlighter-rouge">lsusb</code>:
      [root@alarmpi ~]# lsusb
      Bus 001 Device 002: ID 0424:9512 Standard Microsystems Corp. LAN9500 Ethernet 10/100 Adapter
      Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
      Bus 001 Device 003: ID 0424:ec00 Standard Microsystems Corp.
      Bus 001 Device 004: ID 050d:945a Belkin Components F7D1101 v1 Basic Wireless Adapter [Realtek RTL8188SU]</p>
   </li>
-  <li>Update the system: <code class="highlighter-rouge">pacman -Syu</code></li>
-  <li>Install the base system and vim, <a href="https://wiki.archlinux.org/index.php/Netctl">netctl</a> is the replcaement for the netcfg package: <code class="highlighter-rouge">packman -S base-devel vim netctl</code></li>
-  <li>Following is just a replica of contents in arch wiki: <code class="highlighter-rouge">cp /etc/netctl/examples/wireless-wpa /etc/netctl</code></li>
+  <li>Update the system: <code class="language-plaintext highlighter-rouge">pacman -Syu</code></li>
+  <li>Install the base system and vim, <a href="https://wiki.archlinux.org/index.php/Netctl">netctl</a> is the replcaement for the netcfg package: <code class="language-plaintext highlighter-rouge">packman -S base-devel vim netctl</code></li>
+  <li>Following is just a replica of contents in arch wiki: <code class="language-plaintext highlighter-rouge">cp /etc/netctl/examples/wireless-wpa /etc/netctl</code></li>
   <li>
-    <p>Editing the netctl/wireless-wpa file: <code class="highlighter-rouge">vim /etc/netctl/wireless-wpa</code>
+    <p>Editing the netctl/wireless-wpa file: <code class="language-plaintext highlighter-rouge">vim /etc/netctl/wireless-wpa</code>
      ESSID=’yourssid’
      Key=’yourpassword’</p>
   </li>
-  <li>Testing the connection: <code class="highlighter-rouge">netctl start wireless-wpa</code></li>
+  <li>Testing the connection: <code class="language-plaintext highlighter-rouge">netctl start wireless-wpa</code></li>
   <li>
-    <p>See the logs: <code class="highlighter-rouge">netctl status wireless-wpa</code>
+    <p>See the logs: <code class="language-plaintext highlighter-rouge">netctl status wireless-wpa</code>
      [root@alarmpi netctl]# netctl status wireless-wpa
      netctl@wireless\x2dwpa.service - Networking for netctl profile wireless-wpa
      Loaded: loaded (/usr/lib/systemd/system/netctl@.service; static)
@@ -51,7 +51,7 @@
         ├─ 735 wpa_supplicant -B -P /run/wpa_supplicant_wlan0.pid -i wlan0…
         └─1066 dhcpcd -qL -t 10 wlan0`</p>
   </li>
-  <li>Add entry into systemd: <code class="highlighter-rouge">netctl enable wireless-wpa</code></li>
+  <li>Add entry into systemd: <code class="language-plaintext highlighter-rouge">netctl enable wireless-wpa</code></li>
   <li>Unplug the cable and testing the wireless connection!!!</li>
 </ol>
 
@@ -59,7 +59,7 @@
 </article>
 
 
-<div id="footer"><div id="credits">2020 © all rights reserved. layout inspired by <a href="http://jimbarraud.com/manifest/">manifest</a>. <br>
+<div id="footer"><div id="credits">2022 © all rights reserved. layout inspired by <a href="http://jimbarraud.com/manifest/">manifest</a>. <br>
 best viewed over the <a href="http://goo.gl/bIWJw">wall</a>. &nbsp;&nbsp;&nbsp;<a href="/log.html">sitelog</a>|&nbsp;<a href="/archive.html">archive</a>|&nbsp;<a href="/about.html">about</a></div></div>
 </div>
 </div>
